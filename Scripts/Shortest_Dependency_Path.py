@@ -139,10 +139,10 @@ def makeGraph(annoOffnText, myPowerSet):
     
     if x != None:
         for item in x:
-            c = csv.writer(open('./dataFrames/{0}_{1}.csv'.format(item[1][0], item[1][-1]), 'a'))
+            c = csv.writer(open('../Data/dataFrames/{0}_{1}.csv'.format(item[1][0], item[1][-1]), 'a'))
             c.writerow([item[0], item[1]])
 
-            p = csv.writer(open('./dataFrames/withSentences/{0}_{1}_sent.csv'.format(item[1][0], item[1][-1]), 'a'))
+            p = csv.writer(open('../Data/dataFrames/withSentences/{0}_{1}_sent.csv'.format(item[1][0], item[1][-1]), 'a'))
             p.writerow([item[0], item[1], doc.text])
                   
     
