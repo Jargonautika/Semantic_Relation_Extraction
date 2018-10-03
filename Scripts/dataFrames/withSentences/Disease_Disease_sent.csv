@@ -1,0 +1,320 @@
+"['stomach_fistula', 'via_mouth']","['Disease', 'prep', 'ROOT', 'npadvmod', 'Disease']",Reward effects of food via stomach_fistula compared with those of food via_mouth.
+"['Coronary_disease', 'deafness']","['Disease', 'conj', 'prep', 'pobj', 'conj', 'Disease']",Coronary_disease of the inner ear; the vascular origin of vertigo and deafness.
+"['Teschen_disease', 'virus_encephalomyelitis']","['Disease', 'prep', 'ROOT', 'appos', 'Disease']",Experiments with Teschen_disease (virus_encephalomyelitis of swine).
+"['Teschen_disease', 'virus_encephalomyelitis']","['Disease', 'prep', 'ROOT', 'appos', 'Disease']",Experiments with Teschen_disease (virus_encephalomyelitis of swine).
+"['Vesicovaginal_fistula', 'rectovaginal_fistula']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'amod', 'prep', 'pobj', 'nmod', 'Disease']","Vesicovaginal_fistula, with special reference to those complicated with rectovaginal_fistula or complete perineal tear."
+"['Congenital_syphilis', 'painful_joints']","['Disease', 'conj', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",Congenital_syphilis and scurvy as causes of painful_joints in childhood.
+"['Bilateral_pyelitis', 'ureteritis_cystica']","['Disease', 'ROOT', 'conj', 'Disease']",Bilateral_pyelitis cytica and ureteritis_cystica; a case report with six-year follow-up.
+"['rheumatic_fever', 'carditis']","['Disease', 'prep', 'ROOT', 'prep', 'pobj', 'Disease']",Cortisone in acute rheumatic_fever with carditis.
+"['tumor', 'carcinoma_of_the_rectum']","['Disease', 'conj', 'conj', 'Disease']","CASE reports from the University of Kansas Medical Center; tumor conference, carcinoma_of_the_rectum and rectosigmoid."
+"['Trauma', 'vasospasm']","['Disease', 'conj', 'Disease']",Trauma and vasospasm.
+"['bilateral_paralysis', 'thyroid_gland']","['Disease', 'prep', 'pobj', 'acl', 'dobj', 'conj', 'prep', 'pobj', 'Disease']",On the management of bilateral_paralysis of the vocal cords following operations on or diseases of the thyroid_gland.
+"['Virus_infection', 'congenital_malformation']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",Virus_infection during pregnancy as the cause of congenital_malformation of the heart.
+"['Diabetic_retinopathy', 'diabetes']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",Diabetic_retinopathy; with special reference to juvenile diabetes.
+"['psychiatric_disorders', 'tetany']","['Disease', 'acl', 'prep', 'pobj', 'Disease']",Clinical and E.E.G. aspects of psychiatric_disorders associated with tetany.
+"['Arthritis', 'Rheumatism']","['Disease', 'conj', 'compound', 'Disease']",Activities of the Arthritis and Rheumatism Foundation.
+"['life_stress', 'diabetes_mellitus']","['Disease', 'acl', 'prep', 'pobj', 'Disease']",A summary of experimental evidence relating life_stress to diabetes_mellitus.
+"[""Marfan's_syndrome"", 'arachnodactyly']","['Disease', 'advmod', 'Disease']",Marfan's_syndrome; arachnodactyly.
+"['tumor', 'tumor']","['Disease', 'pobj', 'prep', 'pobj', 'prep', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'amod', 'conj', 'Disease']",Enhancement and inhibition of the growth of tumor homoiotransplants by pretreatment of the hosts with various preparations of normal and tumor tissue.
+"['Cerebral_hemorrhage', 'hyperergic_angiitis']","['Disease', 'prep', 'pobj', 'Disease']",Cerebral_hemorrhage in hyperergic_angiitis.
+"['encephalomalacia', 'cavity']","['Disease', 'prep', 'pobj', 'compound', 'Disease']",Multilocular encephalomalacia with cavity formation in infants.
+"['encephalomalacia', 'cavity']","['Disease', 'prep', 'pobj', 'compound', 'Disease']",Multilocular encephalomalacia with cavity formation in infants.
+"['Parovarian_carcinoma', 'tumour']","['Disease', 'appos', 'Disease']",Parovarian_carcinoma; a hitherto undescribed tumour.
+"['carcinoma_of_the_fallopian_tube', 'tuberculous_salpingitis']","['Disease', 'prep', 'ROOT', 'acl', 'prep', 'pobj', 'Disease']",A case of primary carcinoma_of_the_fallopian_tube associated with tuberculous_salpingitis.
+"['coronary_artery_thrombosis', 'cerebral_embolism']","['Disease', 'conj', 'Disease']",A case of coronary_artery_thrombosis and cerebral_embolism following childbirth.
+"['Diabetic', 'diabetic']","['Disease', 'compound', 'ROOT', 'prep', 'pobj', 'amod', 'Disease']",The Sweeney Diabetic Foundation camp for diabetic children.
+"['Diabetic', 'diabetic']","['Disease', 'compound', 'ROOT', 'prep', 'pobj', 'amod', 'Disease']",The Sweeney Diabetic Foundation camp for diabetic children.
+"['tumours', 'tumour']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",Mucin-secreting tumours of the skin with special reference to the so-called mixed-salivary tumour of the skin and its relation to hidradenoma.
+"['tumours', 'hidradenoma']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'conj', 'prep', 'pobj', 'Disease']",Mucin-secreting tumours of the skin with special reference to the so-called mixed-salivary tumour of the skin and its relation to hidradenoma.
+"['tumour', 'hidradenoma']","['Disease', 'conj', 'prep', 'pobj', 'Disease']",Mucin-secreting tumours of the skin with special reference to the so-called mixed-salivary tumour of the skin and its relation to hidradenoma.
+"['tumours', 'tumour']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",Mucin-secreting tumours of the skin with special reference to the so-called mixed-salivary tumour of the skin and its relation to hidradenoma.
+"['tumours', 'hidradenoma']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'conj', 'prep', 'pobj', 'Disease']",Mucin-secreting tumours of the skin with special reference to the so-called mixed-salivary tumour of the skin and its relation to hidradenoma.
+"['tumour', 'hidradenoma']","['Disease', 'conj', 'prep', 'pobj', 'Disease']",Mucin-secreting tumours of the skin with special reference to the so-called mixed-salivary tumour of the skin and its relation to hidradenoma.
+"['tumour', 'hidradenoma']","['Disease', 'conj', 'prep', 'pobj', 'Disease']",Mucin-secreting tumours of the skin with special reference to the so-called mixed-salivary tumour of the skin and its relation to hidradenoma.
+"['tumour', 'salivary_gland']","['Disease', 'prep', 'pobj', 'Disease']",A mixed tumour of salivary_gland showing bone formation with a histochemical study of the tumour mucoids.
+"['tumour', 'tumour']","['Disease', 'acl', 'prep', 'pobj', 'prep', 'pobj', 'compound', 'Disease']",A mixed tumour of salivary_gland showing bone formation with a histochemical study of the tumour mucoids.
+"['salivary_gland', 'tumour']","['Disease', 'prep', 'ROOT', 'acl', 'prep', 'pobj', 'prep', 'pobj', 'compound', 'Disease']",A mixed tumour of salivary_gland showing bone formation with a histochemical study of the tumour mucoids.
+"['salivary_gland', 'tumour']","['Disease', 'prep', 'ROOT', 'acl', 'prep', 'pobj', 'prep', 'pobj', 'compound', 'Disease']",A mixed tumour of salivary_gland showing bone formation with a histochemical study of the tumour mucoids.
+"['Congenital_pulmonary_stenosis', 'cyanosis']","['Disease', 'prep', 'pobj', 'Disease']",Congenital_pulmonary_stenosis without cyanosis.
+"['eosinophilia', 'parasitis_infections']","['Disease', 'prep', 'pobj', 'Disease']",Blood eosinophilia in parasitis_infections endemic in Egypt.
+"['trachea', 'carcinoma']","['Disease', 'prep', 'pobj', 'Disease']",Resection of the trachea for carcinoma; report of two cases.
+"['Hemopericardium', 'constrictive_pericarditis']","['Disease', 'conj', 'Disease']",Hemopericardium and constrictive_pericarditis.
+"['Obstructive_pneumonitis', 'bronchial_adenoma']","['Disease', 'amod', 'prep', 'pobj', 'Disease']",Obstructive_pneumonitis secondary to bronchial_adenoma.
+"['Adenocarcinoma', 'bronchial_adenoma']","['Disease', 'acl', 'prep', 'pobj', 'Disease']",Adenocarcinoma developing in a peripheral bronchial_adenoma; report of a case.
+"['Hematuria', 'sickle_cell_disease']","['Disease', 'prep', 'pobj', 'Disease']",Hematuria with sickle_cell_disease.
+"['Giant_condylomata', 'carcinoma']","['Disease', 'ROOT', 'conj', 'amod', 'npadvmod', 'Disease']",Giant_condylomata acuminata (carcinoma-like condylomata or Buschke_Loewenstein_tumors) of the penis.
+"['Giant_condylomata', 'condylomata']","['Disease', 'ROOT', 'conj', 'Disease']",Giant_condylomata acuminata (carcinoma-like condylomata or Buschke_Loewenstein_tumors) of the penis.
+"['Giant_condylomata', 'Buschke_Loewenstein_tumors']","['Disease', 'ROOT', 'conj', 'conj', 'Disease']",Giant_condylomata acuminata (carcinoma-like condylomata or Buschke_Loewenstein_tumors) of the penis.
+"['carcinoma', 'condylomata']","['Disease', 'amod', 'conj', 'Disease']",Giant_condylomata acuminata (carcinoma-like condylomata or Buschke_Loewenstein_tumors) of the penis.
+"['carcinoma', 'Buschke_Loewenstein_tumors']","['Disease', 'amod', 'conj', 'conj', 'Disease']",Giant_condylomata acuminata (carcinoma-like condylomata or Buschke_Loewenstein_tumors) of the penis.
+"['condylomata', 'Buschke_Loewenstein_tumors']","['Disease', 'conj', 'Disease']",Giant_condylomata acuminata (carcinoma-like condylomata or Buschke_Loewenstein_tumors) of the penis.
+"['carcinoma', 'condylomata']","['Disease', 'amod', 'conj', 'Disease']",Giant_condylomata acuminata (carcinoma-like condylomata or Buschke_Loewenstein_tumors) of the penis.
+"['carcinoma', 'Buschke_Loewenstein_tumors']","['Disease', 'amod', 'conj', 'conj', 'Disease']",Giant_condylomata acuminata (carcinoma-like condylomata or Buschke_Loewenstein_tumors) of the penis.
+"['condylomata', 'Buschke_Loewenstein_tumors']","['Disease', 'conj', 'Disease']",Giant_condylomata acuminata (carcinoma-like condylomata or Buschke_Loewenstein_tumors) of the penis.
+"['carcinoma', 'Buschke_Loewenstein_tumors']","['Disease', 'amod', 'conj', 'conj', 'Disease']",Giant_condylomata acuminata (carcinoma-like condylomata or Buschke_Loewenstein_tumors) of the penis.
+"['pain', 'hypertension']","['Disease', 'conj', 'Disease']",[Alcohol_novocain block as a method of therapy of pain and neuromuscular hypertension].
+"['rupture_of_the_liver', 'cholecystitis']","['Disease', 'prep', 'ROOT', 'acl', 'dobj', 'Disease']",[Case of two-stage rupture_of_the_liver simulating acute cholecystitis].
+"['bronchial_cylindromas', 'adenomas']","['Disease', 'conj', 'Disease']",[Tracheal and bronchial_cylindromas and adenomas].
+"['Macrophthalmia', 'glaucoma']","['Disease', 'appos', 'prep', 'pobj', 'Disease']",[Macrophthalmia in fish (pathogenesis of glaucoma)].
+"['osteosclerosis', 'blood_diseases']","['Disease', 'prep', 'ROOT', 'prep', 'pobj', 'Disease']",[The pathogenesis of osteosclerosis in blood_diseases].
+"['rheumatism', 'bronchial_asthma']","['Disease', 'conj', 'Disease']",[Therapy of rheumatism and bronchial_asthma with adrenal cortical hormones].
+"['paralysis', 'postoperative_complication']","['Disease', 'conj', 'prep', 'pobj', 'Disease']",Bilateral midline paralysis of the larynx of central origin; its occurrence as a postoperative_complication.
+"['tuberculosis', 'renal_tuberculosis']","['Disease', 'prep', 'pobj', 'prep', 'intj', 'punct', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",[Prevention of local complications in nephrectomy for tuberculosis; thiosemicarbazones in the treatment of renal_tuberculosis].
+"['elephantiasis_syndrome', 'lymphangiectasis']","['Disease', 'prep', 'pobj', 'prep', 'dep', 'appos', 'Disease']","[Lymphatic lesions in relation to elephantiasis_syndrome, lymphangiectasis, recurrent lymphangitis, lymphatic_venous_lesions]."
+"['elephantiasis_syndrome', 'lymphangitis']","['Disease', 'prep', 'pobj', 'prep', 'dep', 'ROOT', 'dep', 'Disease']","[Lymphatic lesions in relation to elephantiasis_syndrome, lymphangiectasis, recurrent lymphangitis, lymphatic_venous_lesions]."
+"['elephantiasis_syndrome', 'lymphatic_venous_lesions']","['Disease', 'prep', 'pobj', 'prep', 'dep', 'ROOT', 'Disease']","[Lymphatic lesions in relation to elephantiasis_syndrome, lymphangiectasis, recurrent lymphangitis, lymphatic_venous_lesions]."
+"['lymphangiectasis', 'lymphangitis']","['Disease', 'dep', 'ROOT', 'dep', 'Disease']","[Lymphatic lesions in relation to elephantiasis_syndrome, lymphangiectasis, recurrent lymphangitis, lymphatic_venous_lesions]."
+"['lymphangiectasis', 'lymphatic_venous_lesions']","['Disease', 'dep', 'ROOT', 'Disease']","[Lymphatic lesions in relation to elephantiasis_syndrome, lymphangiectasis, recurrent lymphangitis, lymphatic_venous_lesions]."
+"['lymphangitis', 'lymphatic_venous_lesions']","['Disease', 'ROOT', 'Disease']","[Lymphatic lesions in relation to elephantiasis_syndrome, lymphangiectasis, recurrent lymphangitis, lymphatic_venous_lesions]."
+"['elephantiasis_syndrome', 'lymphangiectasis']","['Disease', 'prep', 'pobj', 'prep', 'dep', 'appos', 'Disease']","[Lymphatic lesions in relation to elephantiasis_syndrome, lymphangiectasis, recurrent lymphangitis, lymphatic_venous_lesions]."
+"['elephantiasis_syndrome', 'lymphatic_venous_lesions']","['Disease', 'prep', 'pobj', 'prep', 'dep', 'ROOT', 'Disease']","[Lymphatic lesions in relation to elephantiasis_syndrome, lymphangiectasis, recurrent lymphangitis, lymphatic_venous_lesions]."
+"['lymphangiectasis', 'lymphatic_venous_lesions']","['Disease', 'dep', 'ROOT', 'Disease']","[Lymphatic lesions in relation to elephantiasis_syndrome, lymphangiectasis, recurrent lymphangitis, lymphatic_venous_lesions]."
+"['elephantiasis_syndrome', 'lymphangiectasis']","['Disease', 'prep', 'pobj', 'prep', 'dep', 'appos', 'Disease']","[Lymphatic lesions in relation to elephantiasis_syndrome, lymphangiectasis, recurrent lymphangitis, lymphatic_venous_lesions]."
+"['Coeliac_syndrome', 'tuberculous_enteritis']","['Disease', 'prep', 'pobj', 'Disease']",Coeliac_syndrome due to tuberculous_enteritis.
+"['Brachial_neuritis', 'thoracic_outlet_syndrome']","['Disease', 'ROOT', 'Disease']",Brachial_neuritis; thoracic_outlet_syndrome.
+"['venous_angioma', 'hemiplegia']","['Disease', 'prep', 'ROOT', 'acl', 'dobj', 'Disease']",A case of intracerebral arterio-venous_angioma causing hemiplegia.
+"['Bilateral_cystic_ovaries', ""Stein's_syndrome""]","['Disease', 'appos', 'Disease']",Bilateral_cystic_ovaries (Stein's_syndrome).
+"['Pneumonia', 'endemic_typhus']","['Disease', 'conj', 'Disease']",Pneumonia and endemic_typhus.
+"['ears_diseases', 'influenza']","['Disease', 'prep', 'pobj', 'Disease']",[Nose and ears_diseases in influenza].
+"['pain', 'peripheral_vascular_disease']","['Disease', 'prep', 'ROOT', 'acl', 'agent', 'pobj', 'Disease']",[Therapy of pain caused by peripheral_vascular_disease].
+"['Neurotic_diabetes_insipidus', 'polydipsia']","['Disease', 'appos', 'Disease']",[Neurotic_diabetes_insipidus (polydipsia)].
+"['Shoulder_hand_syndrome', 'heart_disease']","['Disease', 'prep', 'pobj', 'Disease']",[Shoulder_hand_syndrome in heart_disease].
+"['hypochromic_anemia', 'tuberculosis']","['Disease', 'prep', 'ROOT', 'prep', 'pobj', 'Disease']",[Cobalt therapy of hypochromic_anemia in tuberculosis].
+"['hypertension', 'hypertension']","['Disease', 'prep', 'ROOT', 'conj', 'Disease']",II. Establishment of hypertension in rats; hypertension caused by perinephritis.
+"['hypertension', 'perinephritis']","['Disease', 'prep', 'ROOT', 'conj', 'acl', 'agent', 'pobj', 'Disease']",II. Establishment of hypertension in rats; hypertension caused by perinephritis.
+"['hypertension', 'perinephritis']","['Disease', 'acl', 'agent', 'pobj', 'Disease']",II. Establishment of hypertension in rats; hypertension caused by perinephritis.
+"['hypertension', 'hypertension']","['Disease', 'prep', 'ROOT', 'conj', 'Disease']",II. Establishment of hypertension in rats; hypertension caused by perinephritis.
+"['hypertension', 'perinephritis']","['Disease', 'prep', 'ROOT', 'conj', 'acl', 'agent', 'pobj', 'Disease']",II. Establishment of hypertension in rats; hypertension caused by perinephritis.
+"['hypertension', 'perinephritis']","['Disease', 'acl', 'agent', 'pobj', 'Disease']",II. Establishment of hypertension in rats; hypertension caused by perinephritis.
+"['hypertension', 'perinephritis']","['Disease', 'acl', 'agent', 'pobj', 'Disease']",II. Establishment of hypertension in rats; hypertension caused by perinephritis.
+"['eclampsia', 'pre_eclampsia']","['Disease', 'conj', 'Disease']",Prevention of eclampsia and pre_eclampsia.
+"['Brain_injury', 'fracture']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",Brain_injury from local impact without skull fracture.
+"['Correction_of_orthopedic_deformities', 'rheumatoid_arthritis']","['Disease', 'prep', 'pobj', 'Disease']",Correction_of_orthopedic_deformities in rheumatoid_arthritis in conjunction with modern therapy.
+"['mastoiditis', 'toxicosis']","['Disease', 'conj', 'Disease']",[Occult mastoiditis and infant toxicosis].
+"['mastoiditis', 'toxicosis']","['Disease', 'conj', 'Disease']",[Occult mastoiditis and infant toxicosis].
+"['Hypothalamic_lesion', 'hypothermia']","['Disease', 'prep', 'pobj', 'Disease']",[Hypothalamic_lesion with hypothermia and extensive_endocrine_dysfunction].
+"['Hypothalamic_lesion', 'extensive_endocrine_dysfunction']","['Disease', 'prep', 'pobj', 'conj', 'Disease']",[Hypothalamic_lesion with hypothermia and extensive_endocrine_dysfunction].
+"['hypothermia', 'extensive_endocrine_dysfunction']","['Disease', 'conj', 'Disease']",[Hypothalamic_lesion with hypothermia and extensive_endocrine_dysfunction].
+"['Hypothalamic_lesion', 'hypothermia']","['Disease', 'prep', 'pobj', 'Disease']",[Hypothalamic_lesion with hypothermia and extensive_endocrine_dysfunction].
+"['Hepatic_hypoglycemia', 'congestive_heart_failure']","['Disease', 'conj', 'prep', 'pobj', 'Disease']",Hepatic_hypoglycemia; its occurrence in congestive_heart_failure.
+"['carcinoma', 'metastases']","['Disease', 'prep', 'pobj', 'Disease']","WEEKLY clinicopathological exercises: carcinoma (left breast), with metastases to lung, bones, liver, gallbladder, omentum, pituitary body and pericardium."
+"['pancreatitis', 'fibrosis']","['Disease', 'appos', 'prep', 'pobj', 'nmod', 'Disease']","WEEKLY clinicopathological exercises: pancreatitis, chronic with fibrosis and abscess formation; hemochromatosis, with involvement of liver, spleen and pancrease."
+"['pancreatitis', 'abscess']","['Disease', 'appos', 'prep', 'pobj', 'nmod', 'conj', 'Disease']","WEEKLY clinicopathological exercises: pancreatitis, chronic with fibrosis and abscess formation; hemochromatosis, with involvement of liver, spleen and pancrease."
+"['pancreatitis', 'hemochromatosis']","['Disease', 'conj', 'Disease']","WEEKLY clinicopathological exercises: pancreatitis, chronic with fibrosis and abscess formation; hemochromatosis, with involvement of liver, spleen and pancrease."
+"['fibrosis', 'abscess']","['Disease', 'conj', 'Disease']","WEEKLY clinicopathological exercises: pancreatitis, chronic with fibrosis and abscess formation; hemochromatosis, with involvement of liver, spleen and pancrease."
+"['fibrosis', 'hemochromatosis']","['Disease', 'pobj', 'prep', 'appos', 'appos', 'conj', 'Disease']","WEEKLY clinicopathological exercises: pancreatitis, chronic with fibrosis and abscess formation; hemochromatosis, with involvement of liver, spleen and pancrease."
+"['abscess', 'hemochromatosis']","['Disease', 'nmod', 'pobj', 'prep', 'appos', 'appos', 'conj', 'Disease']","WEEKLY clinicopathological exercises: pancreatitis, chronic with fibrosis and abscess formation; hemochromatosis, with involvement of liver, spleen and pancrease."
+"['pancreatitis', 'fibrosis']","['Disease', 'appos', 'prep', 'pobj', 'nmod', 'Disease']","WEEKLY clinicopathological exercises: pancreatitis, chronic with fibrosis and abscess formation; hemochromatosis, with involvement of liver, spleen and pancrease."
+"['pancreatitis', 'abscess']","['Disease', 'appos', 'prep', 'pobj', 'nmod', 'conj', 'Disease']","WEEKLY clinicopathological exercises: pancreatitis, chronic with fibrosis and abscess formation; hemochromatosis, with involvement of liver, spleen and pancrease."
+"['fibrosis', 'abscess']","['Disease', 'conj', 'Disease']","WEEKLY clinicopathological exercises: pancreatitis, chronic with fibrosis and abscess formation; hemochromatosis, with involvement of liver, spleen and pancrease."
+"['fibrosis', 'abscess']","['Disease', 'conj', 'Disease']","WEEKLY clinicopathological exercises: pancreatitis, chronic with fibrosis and abscess formation; hemochromatosis, with involvement of liver, spleen and pancrease."
+"['Mitral_stenosis', 'congestive_heart_failure']","['Disease', 'prep', 'pobj', 'Disease']",Mitral_stenosis with long-lasting congestive_heart_failure or auricular_fibrillation.
+"['Mitral_stenosis', 'auricular_fibrillation']","['Disease', 'prep', 'pobj', 'conj', 'Disease']",Mitral_stenosis with long-lasting congestive_heart_failure or auricular_fibrillation.
+"['congestive_heart_failure', 'auricular_fibrillation']","['Disease', 'conj', 'Disease']",Mitral_stenosis with long-lasting congestive_heart_failure or auricular_fibrillation.
+"['congestive_heart_failure', 'auricular_fibrillation']","['Disease', 'conj', 'Disease']",Mitral_stenosis with long-lasting congestive_heart_failure or auricular_fibrillation.
+"['adenocarcinoma', 'primary_lesion']","['Disease', 'ROOT', 'prep', 'prep', 'pobj', 'Disease']","WEEKLY clinicopathological exercises, adenocarcinoma of jejunum, with two metastases to serosa of jejunum distal to primary_lesion and to one mesenteric lymph node."
+"['cardiac_dilatation', 'hypertrophy']","['Disease', 'conj', 'Disease']","WEEKLY clinicopathological exercises, idiopathic cardiac_dilatation and hypertrophy; endocardial_fibrosis."
+"['cardiac_dilatation', 'endocardial_fibrosis']","['Disease', 'ROOT', 'appos', 'Disease']","WEEKLY clinicopathological exercises, idiopathic cardiac_dilatation and hypertrophy; endocardial_fibrosis."
+"['hypertrophy', 'endocardial_fibrosis']","['Disease', 'conj', 'ROOT', 'appos', 'Disease']","WEEKLY clinicopathological exercises, idiopathic cardiac_dilatation and hypertrophy; endocardial_fibrosis."
+"['cardiac_dilatation', 'endocardial_fibrosis']","['Disease', 'ROOT', 'appos', 'Disease']","WEEKLY clinicopathological exercises, idiopathic cardiac_dilatation and hypertrophy; endocardial_fibrosis."
+"['Coma', 'infectious_mononucleosis']","['Disease', 'prep', 'pobj', 'Disease']",Coma in infectious_mononucleosis.
+"['malignant_lymphoma', 'mediastinum']","['Disease', 'appos', 'prep', 'pobj', 'Disease']","WEEKLY clinicopathological exercises: malignant_lymphoma, Hodgkin's type of anterior mediastinum."
+"['coronary_atherosclerosis', 'sudden_death']","['Disease', 'prep', 'pobj', 'Disease']","WEEKLY clinicopathological exercise: coronary_atherosclerosis, severe, with sudden_death."
+"['suppurative_pericarditis', 'cardiac_tamponade']","['Disease', 'acl', 'prep', 'pobj', 'Disease']",WEEKLY clinicopathological exercise: subacute suppurative_pericarditis with cardiac_tamponade; rupture of abscessed with lacerated ascending aorta into pericardium.
+"['suppurative_pericarditis', 'rupture']","['Disease', 'acl', 'appos', 'Disease']",WEEKLY clinicopathological exercise: subacute suppurative_pericarditis with cardiac_tamponade; rupture of abscessed with lacerated ascending aorta into pericardium.
+"['cardiac_tamponade', 'rupture']","['Disease', 'prep', 'acl', 'appos', 'Disease']",WEEKLY clinicopathological exercise: subacute suppurative_pericarditis with cardiac_tamponade; rupture of abscessed with lacerated ascending aorta into pericardium.
+"['cardiac_tamponade', 'rupture']","['Disease', 'prep', 'acl', 'appos', 'Disease']",WEEKLY clinicopathological exercise: subacute suppurative_pericarditis with cardiac_tamponade; rupture of abscessed with lacerated ascending aorta into pericardium.
+"['atopic_eczema', 'neurodermatitis']","['Disease', 'prep', 'ROOT', 'appos', 'Disease']",The use of calcium ointment in atopic_eczema (generalized neurodermatitis); preliminary report.
+"['lymphomas', 'allied_diseases']","['Disease', 'conj', 'Disease']",Some considerations in the therapy of lymphomas and allied_diseases.
+"['Herpes_zoster', 'rheumatoid_arthritis']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",Herpes_zoster during cortisone therapy in three patients with rheumatoid_arthritis.
+"['Herpes_zoster', 'rheumatoid_arthritis']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",Herpes_zoster during cortisone therapy in three patients with rheumatoid_arthritis.
+"['Seminoma', 'incarcerated_hernia']","['Disease', 'ROOT', 'dobj', 'Disease']",Seminoma of undescended testicle resembling incarcerated_hernia.
+"['allergy', 'diabetic_ketosis']","['Disease', 'prep', 'pobj', 'prep', 'appos', 'acl', 'dobj', 'Disease']","Denatured insulin; a simplified, rapid means of treatment of allergy to insulin complicating diabetic_ketosis."
+"['allergy', 'diabetic_ketosis']","['Disease', 'prep', 'pobj', 'prep', 'appos', 'acl', 'dobj', 'Disease']","Denatured insulin; a simplified, rapid means of treatment of allergy to insulin complicating diabetic_ketosis."
+"['allergy', 'diabetic_ketosis']","['Disease', 'prep', 'pobj', 'prep', 'appos', 'acl', 'dobj', 'Disease']","Denatured insulin; a simplified, rapid means of treatment of allergy to insulin complicating diabetic_ketosis."
+"['osteoarthritis', 'degenerative_joint_disease']","['Disease', 'appos', 'Disease']",Palliative treatment of osteoarthritis (degenerative_joint_disease) by the intra-arterial injection of priscoline.
+"['Polycystic_disease_of_the_liver', 'gastrointestinal_hemorrhage']","['Disease', 'attr', 'prep', 'pobj', 'Disease']",Polycystic_disease_of_the_liver: a possible cause of gastrointestinal_hemorrhage.
+"['Food_poisoning', 'carbon_monoxide_poisoning']","['Disease', 'conj', 'Disease']",Food_poisoning and carbon_monoxide_poisoning.
+"['ventricular_tachycardia', 'infarction']","['Disease', 'acl', 'agent', 'pobj', 'Disease']",Paroxysmal ventricular_tachycardia complicated by pontine infarction.
+"['Spontaneous_epistaxis', 'atelectasis']","['Disease', 'ROOT', 'Disease']",Spontaneous_epistaxis producing atelectasis requiring bronchoscopy.
+"['Retinopathy', 'prematurity']","['Disease', 'prep', 'pobj', 'Disease']",Retinopathy of prematurity; a discussion of histopathologic characteristics.
+"['Acrodynia', 'pink_disease']","['Disease', 'appos', 'Disease']","[Acrodynia, pink_disease presumably caused by occult mercury allergy]."
+"['Acrodynia', 'allergy']","['Disease', 'appos', 'acl', 'agent', 'pobj', 'Disease']","[Acrodynia, pink_disease presumably caused by occult mercury allergy]."
+"['pink_disease', 'allergy']","['Disease', 'acl', 'agent', 'pobj', 'Disease']","[Acrodynia, pink_disease presumably caused by occult mercury allergy]."
+"['Acrodynia', 'pink_disease']","['Disease', 'appos', 'Disease']","[Acrodynia, pink_disease presumably caused by occult mercury allergy]."
+"['diabetes', 'diabetic']","['Disease', 'prep', 'conj', 'pobj', 'prep', 'pobj', 'amod', 'Disease']",[Prognosis of pregnancy diabetes and of infants of diabetic mothers].
+"['diabetes', 'diabetic']","['Disease', 'prep', 'conj', 'pobj', 'prep', 'pobj', 'amod', 'Disease']",[Prognosis of pregnancy diabetes and of infants of diabetic mothers].
+"['Gastrointestinal_diverticula', 'diverticulosis']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",Gastrointestinal_diverticula with emphasis on diverticulosis and diverticulitis of the colon.
+"['Gastrointestinal_diverticula', 'diverticulitis']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'conj', 'Disease']",Gastrointestinal_diverticula with emphasis on diverticulosis and diverticulitis of the colon.
+"['diverticulosis', 'diverticulitis']","['Disease', 'conj', 'Disease']",Gastrointestinal_diverticula with emphasis on diverticulosis and diverticulitis of the colon.
+"['Gastrointestinal_diverticula', 'diverticulitis']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'conj', 'Disease']",Gastrointestinal_diverticula with emphasis on diverticulosis and diverticulitis of the colon.
+"['arteriosclerosis', 'hypotensive']","['Disease', 'prep', 'ROOT', 'conj', 'amod', 'Disease']",Blood lipid correction in arteriosclerosis and its hypotensive effect.
+"['edema', 'hemorrhage']","['Disease', 'conj', 'Disease']",[Certain obstetrical factors in meningeal edema and hemorrhage in newborn infants].
+"['edema', 'hemorrhage']","['Disease', 'conj', 'Disease']",[Certain obstetrical factors in meningeal edema and hemorrhage in newborn infants].
+"['alveolitis', 'catarrh']","['Disease', 'conj', 'Disease']","[Broncho-alveolitis, suffocative catarrh and bronchopneumonia]."
+"['alveolitis', 'bronchopneumonia']","['Disease', 'conj', 'conj', 'Chemical', 'Disease']","[Broncho-alveolitis, suffocative catarrh and bronchopneumonia]."
+"['catarrh', 'bronchopneumonia']","['Disease', 'conj', 'Chemical', 'Disease']","[Broncho-alveolitis, suffocative catarrh and bronchopneumonia]."
+"['alveolitis', 'catarrh']","['Disease', 'conj', 'Disease']","[Broncho-alveolitis, suffocative catarrh and bronchopneumonia]."
+"['CHOLESTEROL', 'hyperthyroidism']","['Disease', 'prep', 'pobj', 'Disease']",CHOLESTEROL in experimental hyperthyroidism and hypothyroidism.
+"['CHOLESTEROL', 'hypothyroidism']","['Disease', 'prep', 'pobj', 'conj', 'Disease']",CHOLESTEROL in experimental hyperthyroidism and hypothyroidism.
+"['hyperthyroidism', 'hypothyroidism']","['Disease', 'conj', 'Disease']",CHOLESTEROL in experimental hyperthyroidism and hypothyroidism.
+"['CHOLESTEROL', 'hyperthyroidism']","['Disease', 'prep', 'pobj', 'Disease']",CHOLESTEROL in experimental hyperthyroidism and hypothyroidism.
+"['focal_infection', 'removal_of_focal_teeth_infections']","['Disease', 'acl', 'dep', 'ROOT', 'prep', 'pobj', 'Disease']",[Methods to demonstrate a focal_infection; good therapeutic results by removal_of_focal_teeth_infections].
+"['Vascular_lesions', 'diabetes_mellitus']","['Disease', 'prep', 'pobj', 'Disease']",Vascular_lesions in diabetes_mellitus: I. The pathologic and clinical aspects of atherosclerosis.
+"['Vascular_lesions', 'atherosclerosis']","['Disease', 'prep', 'pobj', 'appos', 'appos', 'prep', 'pobj', 'Disease']",Vascular_lesions in diabetes_mellitus: I. The pathologic and clinical aspects of atherosclerosis.
+"['diabetes_mellitus', 'atherosclerosis']","['Disease', 'appos', 'appos', 'prep', 'pobj', 'Disease']",Vascular_lesions in diabetes_mellitus: I. The pathologic and clinical aspects of atherosclerosis.
+"['Vascular_lesions', 'diabetes_mellitus']","['Disease', 'prep', 'pobj', 'Disease']",Vascular_lesions in diabetes_mellitus: I. The pathologic and clinical aspects of atherosclerosis.
+"['carcinoma', 'disease_of_bone']","['Disease', 'appos', 'Disease']","CASE record: metastatic carcinoma, possible of thyroid; Hodgkin's disease_of_bone."
+"['maxillofacial_injuries', 'head_injuries']","['Disease', 'conj', 'Disease']",Oral and maxillofacial_injuries and associated head_injuries.
+"['Oral_lesions', 'erythema_multiforme']","['Disease', 'prep', 'pobj', 'Disease']",Oral_lesions of erythema_multiforme.
+"['Tumor', 'endocarditis_lenta']","['Disease', 'ROOT', 'advmod', 'Disease']",[Tumor simulating endocarditis_lenta; kidney_sarcoma with cardiac metastasis].
+"['Tumor', 'kidney_sarcoma']","['Disease', 'ROOT', 'conj', 'Disease']",[Tumor simulating endocarditis_lenta; kidney_sarcoma with cardiac metastasis].
+"['Tumor', 'metastasis']","['Disease', 'ROOT', 'conj', 'prep', 'pobj', 'Disease']",[Tumor simulating endocarditis_lenta; kidney_sarcoma with cardiac metastasis].
+"['endocarditis_lenta', 'kidney_sarcoma']","['Disease', 'ROOT', 'conj', 'Disease']",[Tumor simulating endocarditis_lenta; kidney_sarcoma with cardiac metastasis].
+"['endocarditis_lenta', 'metastasis']","['Disease', 'ROOT', 'conj', 'prep', 'pobj', 'Disease']",[Tumor simulating endocarditis_lenta; kidney_sarcoma with cardiac metastasis].
+"['kidney_sarcoma', 'metastasis']","['Disease', 'prep', 'pobj', 'Disease']",[Tumor simulating endocarditis_lenta; kidney_sarcoma with cardiac metastasis].
+"['Tumor', 'endocarditis_lenta']","['Disease', 'ROOT', 'advmod', 'Disease']",[Tumor simulating endocarditis_lenta; kidney_sarcoma with cardiac metastasis].
+"['Tumor', 'kidney_sarcoma']","['Disease', 'ROOT', 'conj', 'Disease']",[Tumor simulating endocarditis_lenta; kidney_sarcoma with cardiac metastasis].
+"['endocarditis_lenta', 'kidney_sarcoma']","['Disease', 'ROOT', 'conj', 'Disease']",[Tumor simulating endocarditis_lenta; kidney_sarcoma with cardiac metastasis].
+"['Tumor', 'kidney_sarcoma']","['Disease', 'ROOT', 'conj', 'Disease']",[Tumor simulating endocarditis_lenta; kidney_sarcoma with cardiac metastasis].
+"['phlyctenular_ophthalmia', 'tuberculosis']","['Disease', 'prep', 'ROOT', 'prep', 'pobj', 'Disease']",[Relation of phlyctenular_ophthalmia to tuberculosis].
+"['diarrhea', 'dyspepsia']","['Disease', 'acl', 'agent', 'pobj', 'compound', 'Disease']",[Clinical observations in conjunction with infantile diarrhea caused by dyspepsia coli].
+"['Hypertensive_disease', 'arteriosclerosis']","['Disease', 'conj', 'Disease']",[Hypertensive_disease and arteriosclerosis].
+"['periodontal_diseases', 'bruxism']","['Disease', 'acl', 'agent', 'pobj', 'Disease']",[A bite appliance for the prevention of periodontal_diseases caused by bruxism].
+"['Diabetic_syndrome', 'intracranial_hemorrhage']","['Disease', 'prep', 'pobj', 'Disease']",[Diabetic_syndrome in intracranial_hemorrhage in newborn].
+"['renal_injury', 'choline_deficiency']","['Disease', 'prep', 'ROOT', 'prep', 'pobj', 'Disease']",Protection against fatal renal_injury due to choline_deficiency by renal decapsulation.
+"['poliomyelitis', 'infection']","['Disease', 'prep', 'pobj', 'prep', 'ROOT', 'prep', 'pobj', 'Disease']",Levels of homotypic neutralizing antibody in human poliomyelitis three years after infection.
+"['poliomyelitis', 'infection']","['Disease', 'prep', 'pobj', 'prep', 'ROOT', 'prep', 'pobj', 'Disease']",Levels of homotypic neutralizing antibody in human poliomyelitis three years after infection.
+"['Congenital_defects_of_the_kidney', 'abdominal_pain']","['Disease', 'prep', 'pobj', 'Disease']",Congenital_defects_of_the_kidney with abdominal_pain.
+"['allergy', 'infectious_diarrhea_of_infancy']","['Disease', 'prep', 'ROOT', 'prep', 'pobj', 'Disease']",The role of allergy in infectious_diarrhea_of_infancy.
+"['Acromegaly', 'laryngeal_obstruction']","['Disease', 'acl', 'prep', 'pobj', 'Disease']",Acromegaly associated with laryngeal_obstruction.
+"['hypertension', 'adrenal_pheochromocytoma']","['Disease', 'acl', 'agent', 'pobj', 'Disease']",[Paroxysmal hypertension caused by adrenal_pheochromocytoma; surgery].
+"['mental_disease', 'mental_disease']","['Disease', 'prep', 'ROOT', 'appos', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'Disease']","The ecology of mental_disease; a dissertation of the influence of environmental factors in the distribution, development and variation of mental_disease."
+"['Gargoylism', ""Hurler's_disease""]","['Disease', 'appos', 'Disease']",Gargoylism (Hurler's_disease).
+"['Breast_carcinoma', 'thyroid_disease']","['Disease', 'ROOT', 'appos', 'prep', 'pobj', 'Disease']",Breast_carcinoma study: relation to thyroid_disease and diabetes.
+"['Breast_carcinoma', 'diabetes']","['Disease', 'ROOT', 'appos', 'prep', 'pobj', 'conj', 'Disease']",Breast_carcinoma study: relation to thyroid_disease and diabetes.
+"['thyroid_disease', 'diabetes']","['Disease', 'conj', 'Disease']",Breast_carcinoma study: relation to thyroid_disease and diabetes.
+"['Breast_carcinoma', 'thyroid_disease']","['Disease', 'ROOT', 'appos', 'prep', 'pobj', 'Disease']",Breast_carcinoma study: relation to thyroid_disease and diabetes.
+"['truncal_ataxia', 'degeneration_of_the_cerebellar_cortex_and_roof_nuclei']","['Disease', 'acl', 'prep', 'pobj', 'Disease']",Feline truncal_ataxia associated with degeneration_of_the_cerebellar_cortex_and_roof_nuclei.
+"['muscle_lesions', 'poliomyelitis']","['Disease', 'prep', 'pobj', 'Disease']",Skeletal muscle_lesions in cortisone enhanced poliomyelitis.
+"['Paraplegia', 'ruptured_lumbar_discs']","['Disease', 'prep', 'pobj', 'Disease']",Paraplegia from ruptured_lumbar_discs in achondroplastic dwarfs.
+"['Hemochromatosis', 'congestive_heart_failure']","['Disease', 'ROOT', 'prep', 'pobj', 'amod', 'Disease']",Hemochromatosis complicated by congestive_heart_failure and severe anemia: report of case.
+"['Hemochromatosis', 'anemia']","['Disease', 'ROOT', 'prep', 'pobj', 'Disease']",Hemochromatosis complicated by congestive_heart_failure and severe anemia: report of case.
+"['congestive_heart_failure', 'anemia']","['Disease', 'pobj', 'Disease']",Hemochromatosis complicated by congestive_heart_failure and severe anemia: report of case.
+"['congestive_heart_failure', 'anemia']","['Disease', 'pobj', 'Disease']",Hemochromatosis complicated by congestive_heart_failure and severe anemia: report of case.
+"['phlebothrombosis', 'thrombophlebitis']","['Disease', 'conj', 'Disease']",The treatment of phlebothrombosis and thrombophlebitis.
+"['Adenocarcinoma_of_the_colon', 'tumor_of_penis']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'Disease']","Adenocarcinoma_of_the_colon with primary complaint of tumor_of_penis, with considerations of mode of occurrence."
+"['Carcinoma', 'polycystic_kidney']","['Disease', 'prep', 'pobj', 'Disease']",Carcinoma in a polycystic_kidney.
+"['Leukoplakia', 'carcinoma']","['Disease', 'conj', 'prep', 'pobj', 'Disease']",Leukoplakia of the urinary bladder and its association with carcinoma.
+"['Metastasis', 'carcinoma_of_the_prostate']","['Disease', 'prep', 'pobj', 'Disease']",Metastasis to the corpora cavernosa from carcinoma_of_the_prostate.
+"['gastric_cancer', 'gastric_cancer']","['Disease', 'prep', 'pobj', 'prep', 'ROOT', 'prep', 'conj', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'Disease']","[All-Russian conference on diagnosis and therapy of gastric_cancer, on precancerous conditions of the stomach, and on methods in control and organization of prevention of gastric_cancer]."
+"['hemolytic_jaundice', 'hepatitis']","['Disease', 'prep', 'pobj', 'Disease']",[Acquired hemolytic_jaundice with positive coombs test following infectious hepatitis].
+"['lipomatosis', ""Herter's_disease""]","['Disease', 'appos', 'Disease']",Sacro-iliac lipomatosis (Herter's_disease); a relatively new clinical entity.
+"['cleft_lip', 'nasal_deformities']","['Disease', 'conj', 'conj', 'Disease']","Some aspects in the secondary repair of cleft_lip, palate and nasal_deformities, with case report."
+"['pallor', 'hyperthermia']","['Disease', 'conj', 'Disease']",[Observations on postoperative syndrome of pallor and hyperthermia in children].
+"['pallor', 'hyperthermia']","['Disease', 'conj', 'Disease']",[Observations on postoperative syndrome of pallor and hyperthermia in children].
+"['haemorrhage', 'traumatic_rupture']","['Disease', 'prep', 'dobj', 'Disease']",Delayed haemorrhage following traumatic_rupture of the normal spleen simulating spontaneous rupture.
+"['haemorrhage', 'rupture']","['Disease', 'ROOT', 'dobj', 'Disease']",Delayed haemorrhage following traumatic_rupture of the normal spleen simulating spontaneous rupture.
+"['traumatic_rupture', 'rupture']","['Disease', 'prep', 'nsubj', 'ROOT', 'dobj', 'Disease']",Delayed haemorrhage following traumatic_rupture of the normal spleen simulating spontaneous rupture.
+"['haemorrhage', 'rupture']","['Disease', 'ROOT', 'dobj', 'Disease']",Delayed haemorrhage following traumatic_rupture of the normal spleen simulating spontaneous rupture.
+"['Chronic_pyelonephritis', 'hypertension']","['Disease', 'appos', 'prep', 'pobj', 'Disease']",Chronic_pyelonephritis: an important cause of hypertension.
+"['Pericarditis', 'tuberculosis']","['Disease', 'ROOT', 'dobj', 'prep', 'pobj', 'Disease']",[Pericarditis following pulmonary exeresis for tuberculosis].
+"['inner_ear_hearing_disorders', 'tinnitus']","['Disease', 'conj', 'Disease']",[Results of vitamin_A (Arovit-Roche) therapy of inner_ear_hearing_disorders and tinnitus].
+"['Diverticulosis', 'diverticulitis']","['Disease', 'conj', 'Disease']",Diverticulosis and diverticulitis.
+"['fibrosis', 'celiac_diseases']","['Disease', 'conj', 'Disease']",[Pancreatic fibrosis and celiac_diseases].
+"['primary_infection', 'tuberculosis']","['Disease', 'prep', 'pobj', 'Disease']",The primary_infection in tuberculosis in children.
+"['primary_infection', 'tuberculosis']","['Disease', 'prep', 'pobj', 'Disease']",The primary_infection in tuberculosis in children.
+"['Diabetic_infantilism', 'diabetic_nephropathy']","['Disease', 'prep', 'pobj', 'Disease']",Diabetic_infantilism with diabetic_nephropathy.
+"['Congenital_ovarian_aplasia', 'Ullrich_Turner_syndrome']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",[Congenital_ovarian_aplasia: with minimal evidence of Ullrich_Turner_syndrome].
+"['Occupational_dermatitis', 'industrial_skin_cancer']","['Disease', 'conj', 'Disease']",Occupational_dermatitis and industrial_skin_cancer.
+"['non_malignant_tumours', 'polyps']","['Disease', 'prep', 'pobj', 'prep', 'ROOT', 'appos', 'prep', 'pobj', 'Disease']",Discussion on the pathology and treatment of non_malignant_tumours of the rectum and colon; endoscopic removal of polyps by electrosurgery.
+"['non_malignant_tumours', 'large_villous_tumours']","['Disease', 'prep', 'pobj', 'prep', 'ROOT', 'conj', 'prep', 'pobj', 'Disease']",Discussion on the pathology and treatment of non_malignant_tumours of the rectum and colon; the surgical management of large_villous_tumours of the rectum.
+"['Visceral_lesions', 'disseminated_lupus_erythematosus']","['Disease', 'prep', 'pobj', 'Disease']",Visceral_lesions in disseminated_lupus_erythematosus.
+"['fever', 'vasomotor_rhinitis_and_vasomotor_sinusitis']","['Disease', 'prep', 'ROOT', 'conj', 'Disease']","Treatment of hay fever, vasomotor_rhinitis_and_vasomotor_sinusitis with sodium_psylliate; 900 cases."
+"['Virus', 'cancer']","['Disease', 'amod', 'ROOT', 'prep', 'pobj', 'Disease']",Virus-like bodies in human cancer; a electron-microscope study of the filtrable components of normal and neoplastic tissue.
+"['Virus', 'cancer']","['Disease', 'amod', 'ROOT', 'prep', 'pobj', 'Disease']",Virus-like bodies in human cancer; a electron-microscope study of the filtrable components of normal and neoplastic tissue.
+"['Neurogenic_tumour', 'neurilemmoma']","['Disease', 'appos', 'prep', 'pobj', 'Disease']",Neurogenic_tumour of the stomach: case report of a probable neurilemmoma.
+"['Bicuspid_aortic_valve', 'aneurysmal_dilatation']","['Disease', 'acl', 'prep', 'pobj', 'Disease']",Bicuspid_aortic_valve associated with aneurysmal_dilatation of the ascending aorta.
+"['balanitis', 'cavernitis']","['Disease', 'conj', 'conj', 'Disease']","[Antibiotics in balanitis, posthitis and cavernitis]."
+"['Adrenocortical_insufficiency', 'silicosis']","['Disease', 'prep', 'pobj', 'Disease']",[Adrenocortical_insufficiency in silicosis; critical review and clinical findings].
+"['angiospasm', 'eclampsia']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",[Benzyl_imidazoline in the treatment of angiospasm in eclampsia].
+"['Pulmonary_embolism', 'thrombophlebitis']","['Disease', 'ROOT', 'dobj', 'Disease']",Pulmonary_embolism complicating thrombophlebitis of the upper extremity.
+"['Benign_tumors', 'stomach']","['Disease', 'prep', 'pobj', 'Disease']",Benign_tumors of the stomach.
+"['Lymphogranulomatous_infection', 'hemorrhoids']","['Disease', 'acl', 'dobj', 'prep', 'pobj', 'Disease']",[Lymphogranulomatous_infection complicating the postoperative course in hemorrhoids].
+"['Neurological_syndrome', 'tumors']","['Disease', 'prep', 'pobj', 'Disease']",[Neurological_syndrome from tumors of the nasopharyngeal cavity].
+"['bursitis', 'periarthritis']","['Disease', 'conj', 'Disease']",[Roentgenotherapy of scapulohumeral bursitis and periarthritis].
+"['Extrapulmonary_tuberculosis', 'pulmonary_tuberculosis']","['Disease', 'prep', 'pobj', 'Disease']",[Extrapulmonary_tuberculosis in pulmonary_tuberculosis].
+"['brucellosis', 'brucellosis']","['Disease', 'prep', 'dep', 'ROOT', 'prep', 'pobj', 'Disease']",[Studies on brucellosis; medico-social problems of brucellosis in Cuba].
+"['hepatic_steatosis', 'cirrhosis']","['Disease', 'prep', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",[Place of hepatic_steatosis in the evolution of alcoholic cirrhosis].
+"['glomus_tumor', 'malformation_and_bilateral_Achilles_areflexia']","['Disease', 'prep', 'ROOT', 'prep', 'pobj', 'Disease']",[Case of glomus_tumor of the lumbar region with sacral bone malformation_and_bilateral_Achilles_areflexia].
+"['abdominal_diseases', 'pancreatic_diseases']","['Disease', 'ROOT', 'agent', 'pobj', 'Disease']",[The acute abdomen. VIII. Acute abdominal_diseases caused by pancreatic_diseases].
+"['Trauma', 'tuberculosis']","['Disease', 'conj', 'Disease']",[Trauma and tuberculosis].
+"['vascular_disease', 'blunt_injury']","['Disease', 'prep', 'ROOT', 'prep', 'pobj', 'Disease']",[Arteriographic demonstration of cerebral vascular_disease following blunt_injury].
+"['Cerebral_atrophy', 'head_injury']","['Disease', 'prep', 'dobj', 'Disease']",[Cerebral_atrophy following head_injury].
+"['tuberculosis', 'infectious_diseases']","['Disease', 'prep', 'pobj', 'prep', 'dep', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",[Effect of intra-arterial injection of bismuth_carbonate on the course of tuberculosis; concept of role of the nervous system in pathogenesis of infectious_diseases].
+"['hypothyroidism', ""Meigs'_syndrome""]","['Disease', 'conj', 'Disease']",CLINICAL conference on metabolic problems; hypothyroidism and Meigs'_syndrome.
+"['acute_tubular_necrosis', 'acidosis']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'nmod', 'Disease']",Excretion of ammonium in cases of acute_tubular_necrosis with acidosis and alkaline urine.
+"['Rheumatic_fever', 'streptococcal_illness']","['Disease', 'conj', 'Disease']",Rheumatic_fever and streptococcal_illness in two communities in New York State.
+"['histidinuria', 'pregnancy_toxemias']","['Disease', 'prep', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Disease']","[Behavior of histidinuria in puerperium, with particular reference to pregnancy_toxemias]."
+"['food_allergy', 'eczema']","['Disease', 'prep', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",The evaluation of food_allergy in the cause of eczema.
+"['Hiatus_hernia', 'coronary_disease']","['Disease', 'acl', 'prep', 'pobj', 'Disease']",Hiatus_hernia masquerading as coronary_disease.
+"['petrositis', 'mastoiditis']","['Disease', 'conj', 'Disease']",Acute petrositis and mastoiditis in a patient presenting certain unusual diagnostic and therapeutic problems.
+"['petrositis', 'mastoiditis']","['Disease', 'conj', 'Disease']",Acute petrositis and mastoiditis in a patient presenting certain unusual diagnostic and therapeutic problems.
+"['Liver_damage', 'fever']","['Disease', 'prep', 'pobj', 'Disease']",[Liver_damage in scarlet fever].
+"['toxoplasmosis', 'toxoplasmosis']","['Disease', 'pobj', 'prep', 'dep', 'ROOT', 'prep', 'pobj', 'Disease']",[Diaplacentar transmission of toxoplasmosis antibodies; case reports on connatal toxoplasmosis].
+"['ulcerous_stomatitis', 'necrotizing_tonsillitis']","['Disease', 'prep', 'pcomp', 'dobj', 'Disease']",[Severe ulcerous_stomatitis with following extensive necrotizing_tonsillitis and peritonsillitis].
+"['Hypertrophic_polyneuritis', 'spasmodic']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'amod', 'Disease']",[Hypertrophic_polyneuritis in adults (non-familial) with spasmodic paraparesis].
+"['Abnormal_movements', ""Wilson's_disease""]","['Disease', 'prep', 'punct', 'Disease']",[Abnormal_movements in Wilson's_disease in a child].
+"['Abnormal_movements', ""Wilson's_disease""]","['Disease', 'prep', 'punct', 'Disease']",[Abnormal_movements in Wilson's_disease in a child].
+"['atypic_craniopharyngioma', 'total_atrophy_of_the_optic_chiasm_and_nerves']","['Disease', 'prep', 'pobj', 'Disease']",[Latent atypic_craniopharyngioma with total_atrophy_of_the_optic_chiasm_and_nerves].
+"['rheumatoid_arthritis', 'allied_diseases']","['Disease', 'conj', 'Disease']",Present day concept of rheumatoid_arthritis and allied_diseases.
+"['Variability_of_endocrine_disorders', 'postpartum_hypopituitarism']","['Disease', 'prep', 'pobj', 'Disease']",[Variability_of_endocrine_disorders in postpartum_hypopituitarism].
+"['hypertension', 'hypotension']","['Disease', 'conj', 'Disease']",[Intracranial hypertension and hypotension].
+"['hypotension', 'hypertension']","['Disease', 'conj', 'Disease']",[Intracranial hypotension and hypertension].
+"['aortitis', 'interstitial_hemorrhage']","['Disease', 'appos', 'acl', 'prep', 'pobj', 'Disease']","[Tuberculous aortitis by propagation; tuberculous periaortitis with perforation of the esophagus, associated with interstitial_hemorrhage of the myocardium]."
+"['hemorrhages', 'gastroduodenal_ulcer']","['Disease', 'pobj', 'prep', 'dep', 'prep', 'pobj', 'Disease']",[Treatment of perforations and hemorrhages in gastroduodenal_ulcer; observations on 50 cases of perforation and 13 cases of hemorrhages in gastroduodenal_ulcer].
+"['hemorrhages', 'hemorrhages']","['Disease', 'pobj', 'prep', 'dep', 'ROOT', 'prep', 'pobj', 'conj', 'prep', 'pobj', 'Disease']",[Treatment of perforations and hemorrhages in gastroduodenal_ulcer; observations on 50 cases of perforation and 13 cases of hemorrhages in gastroduodenal_ulcer].
+"['hemorrhages', 'gastroduodenal_ulcer']","['Disease', 'pobj', 'prep', 'dep', 'ROOT', 'prep', 'pobj', 'conj', 'prep', 'pobj', 'Disease']",[Treatment of perforations and hemorrhages in gastroduodenal_ulcer; observations on 50 cases of perforation and 13 cases of hemorrhages in gastroduodenal_ulcer].
+"['gastroduodenal_ulcer', 'hemorrhages']","['Disease', 'prep', 'dep', 'ROOT', 'prep', 'pobj', 'conj', 'prep', 'pobj', 'Disease']",[Treatment of perforations and hemorrhages in gastroduodenal_ulcer; observations on 50 cases of perforation and 13 cases of hemorrhages in gastroduodenal_ulcer].
+"['gastroduodenal_ulcer', 'gastroduodenal_ulcer']","['Disease', 'prep', 'dep', 'ROOT', 'prep', 'pobj', 'conj', 'prep', 'pobj', 'Disease']",[Treatment of perforations and hemorrhages in gastroduodenal_ulcer; observations on 50 cases of perforation and 13 cases of hemorrhages in gastroduodenal_ulcer].
+"['hemorrhages', 'gastroduodenal_ulcer']","['Disease', 'prep', 'conj', 'prep', 'pobj', 'Disease']",[Treatment of perforations and hemorrhages in gastroduodenal_ulcer; observations on 50 cases of perforation and 13 cases of hemorrhages in gastroduodenal_ulcer].
+"['hemorrhages', 'gastroduodenal_ulcer']","['Disease', 'pobj', 'prep', 'dep', 'prep', 'pobj', 'Disease']",[Treatment of perforations and hemorrhages in gastroduodenal_ulcer; observations on 50 cases of perforation and 13 cases of hemorrhages in gastroduodenal_ulcer].
+"['hemorrhages', 'gastroduodenal_ulcer']","['Disease', 'pobj', 'prep', 'dep', 'ROOT', 'prep', 'pobj', 'conj', 'prep', 'pobj', 'Disease']",[Treatment of perforations and hemorrhages in gastroduodenal_ulcer; observations on 50 cases of perforation and 13 cases of hemorrhages in gastroduodenal_ulcer].
+"['gastroduodenal_ulcer', 'gastroduodenal_ulcer']","['Disease', 'prep', 'dep', 'ROOT', 'prep', 'pobj', 'conj', 'prep', 'pobj', 'Disease']",[Treatment of perforations and hemorrhages in gastroduodenal_ulcer; observations on 50 cases of perforation and 13 cases of hemorrhages in gastroduodenal_ulcer].
+"['hemorrhages', 'gastroduodenal_ulcer']","['Disease', 'pobj', 'prep', 'dep', 'ROOT', 'prep', 'pobj', 'conj', 'prep', 'pobj', 'Disease']",[Treatment of perforations and hemorrhages in gastroduodenal_ulcer; observations on 50 cases of perforation and 13 cases of hemorrhages in gastroduodenal_ulcer].
+"['scotoma', 'anoxia']","['Disease', 'prep', 'intj', 'nsubj', 'appos', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",[Effect of tobacco and alcohol on retinal sensitivity determined with Goldmann's artificial scotoma; effects of their association with anoxia].
+"['scotoma', 'anoxia']","['Disease', 'prep', 'intj', 'nsubj', 'appos', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",[Effect of tobacco and alcohol on retinal sensitivity determined with Goldmann's artificial scotoma; effects of their association with anoxia].
+"[""Riedel's_disease"", 'tuberculosis']","['Disease', 'prep', 'ccomp', 'prep', 'pobj', 'Disease']",[Possible pathogenic relation of Riedel's_disease to tuberculosis of the thyroid gland; experimental study].
+"['Congenital_atresia', 'stenosis']","['Disease', 'conj', 'Disease']",Congenital_atresia and stenosis of the small intestine.
+"['Falciform_anemias', 'blood_diseases']","['Disease', 'conj', 'Disease']",[Falciform_anemias and blood_diseases in African Negroes].
+"['acute_myeloid_leukemia', 'acute_myeloblastic_leukemia']","['Disease', 'prep', 'pobj', 'prep', 'ccomp', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",[Morphologic and experimental studies on the pathogenesis of acute_myeloid_leukemia; pathology of the bone marrow in guinea_pigs inoculated with the blood from human acute_myeloblastic_leukemia].
+"['acute_myeloid_leukemia', 'acute_myeloblastic_leukemia']","['Disease', 'prep', 'pobj', 'prep', 'ccomp', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",[Morphologic and experimental studies on the pathogenesis of acute_myeloid_leukemia; pathology of the bone marrow in guinea_pigs inoculated with the blood from human acute_myeloblastic_leukemia].
+"['acute_myeloid_leukemia', 'acute_myeloblastic_leukemia']","['Disease', 'prep', 'pobj', 'prep', 'ccomp', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",[Morphologic and experimental studies on the pathogenesis of acute_myeloid_leukemia; pathology of the bone marrow in guinea_pigs inoculated with the blood from human acute_myeloblastic_leukemia].
+"['erythroblastosis', 'osteosclerosis']","['Disease', 'prep', 'pobj', 'Disease']",[Case of chronic erythroblastosis in adult with osteosclerosis; attempted therapy with parathyroid hormones and with dihydrotachysterol].
+"[""Hodgkin's_disease"", 'myocardial_granulomatosis']","['Disease', 'prep', 'pobj', 'Disease']",[Hodgkin's_disease with myocardial_granulomatosis and pulmonary_cavitary_granulomatosis].
+"[""Hodgkin's_disease"", 'pulmonary_cavitary_granulomatosis']","['Disease', 'prep', 'pobj', 'conj', 'Disease']",[Hodgkin's_disease with myocardial_granulomatosis and pulmonary_cavitary_granulomatosis].
+"['myocardial_granulomatosis', 'pulmonary_cavitary_granulomatosis']","['Disease', 'conj', 'Disease']",[Hodgkin's_disease with myocardial_granulomatosis and pulmonary_cavitary_granulomatosis].
+"[""Hodgkin's_disease"", 'pulmonary_cavitary_granulomatosis']","['Disease', 'prep', 'pobj', 'conj', 'Disease']",[Hodgkin's_disease with myocardial_granulomatosis and pulmonary_cavitary_granulomatosis].
+"['Narcosis', 'analgesia']","['Disease', 'conj', 'Disease']",[Narcosis and analgesia in odontology and stomatology].
+"['comas', 'epilepsy']","['Disease', 'prep', 'pobj', 'Disease']",[Post-crisis comas in epilepsy].
+"['cancer_of_the_stomach', 'cancer']","['Disease', 'prep', 'ROOT', 'conj', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",[Local recurrence of cancer_of_the_stomach; incidence in relation to the principles of gastrectomy for cancer].
+"['abdominal_pain', 'vomiting']","['Disease', 'conj', 'Disease']","ECTOPIC pregnancy; symptoms: lower abdominal_pain, vomiting, and prostration."
+"['pterygia', 'pterygia']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",The management of pterygia with particular reference to recurrent pterygia.
+"['cardiac_hypertrophy', 'sickle_cell_anemia']","['Disease', 'prep', 'ROOT', 'prep', 'pobj', 'Disease']",A consideration of cardiac_hypertrophy in sickle_cell_anemia.
+"['Polycythemia', 'brain_tumor']","['Disease', 'amod', 'prep', 'pobj', 'Disease']",Polycythemia secondary to brain_tumor.
+"['ganglion_block', 'bursitis']","['Disease', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",Stellate ganglion_block in treatment of bursitis and tendinitis of the shoulder.
+"['ganglion_block', 'tendinitis']","['Disease', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'conj', 'Disease']",Stellate ganglion_block in treatment of bursitis and tendinitis of the shoulder.
+"['bursitis', 'tendinitis']","['Disease', 'conj', 'Disease']",Stellate ganglion_block in treatment of bursitis and tendinitis of the shoulder.
+"['ganglion_block', 'tendinitis']","['Disease', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'conj', 'Disease']",Stellate ganglion_block in treatment of bursitis and tendinitis of the shoulder.
+"['anastomosis', 'atrophy_of_the_brain']","['Disease', 'prep', 'pobj', 'Disease']",The results of superior cervical sympathectomy and carotid jugular anastomosis in atrophy_of_the_brain.
+"['eosinophilia', 'ascariasis']","['Disease', 'prep', 'ROOT', 'prep', 'pobj', 'Disease']",[Pathogenesis of eosinophilia in early ascariasis].
+"['dyskinetic', 'constipations']","['Disease', 'pobj', 'Disease']",[New preparation thiphen in the treatment of dyskinetic constipations].
+"['cyanosis', 'congenital_heart_diseases']","['Disease', 'prep', 'pobj', 'Disease']",[Retinal cyanosis in congenital_heart_diseases; case of Fallot's tetralogy].
+"['glomerulonephritis', 'urinary_disorders']","['Disease', 'ROOT', 'prep', 'pobj', 'Disease']",[Case of acute diffuse glomerulonephritis without urinary_disorders].
+"['erythroblastosis', ""di_Guglielmo's_disease""]","['Disease', 'appos', 'Disease']","[Unusual case of acute erythroblastosis, di_Guglielmo's_disease]."
+"['fracture', 'fractures']","['Disease', 'conj', 'prep', 'amod', 'prep', 'pobj', 'Disease']",[Effect of teeth present in traumatized region or in fracture on the healing process in jaws fractures].
+"['Diverticulitis', 'carcinoma']","['Disease', 'conj', 'Disease']",Diverticulitis and carcinoma of the sigmoid.
+"['mesenteric_occlusion', 'thrombophlebitis']","['Disease', 'prep', 'pobj', 'prep', 'pcomp', 'dobj', 'Disease']",Venous mesenteric_occlusion in the course of migrating thrombophlebitis.
+"['gastric_cancers', 'metastasis']","['Disease', 'prep', 'conj', 'pobj', 'prep', 'pobj', 'conj', 'Disease']","Biochemical studies on carbohydrates. CLVI. On the sugar components of the hexosamine-containing carbohydrates from gastric_cancers, normal human gastric mucosa and human liver and of the glacial acetic_acid-soluble proteins from those tissues as well as a metastasis in liver of gastric_cancer."
+"['gastric_cancers', 'gastric_cancer']","['Disease', 'prep', 'conj', 'pobj', 'prep', 'pobj', 'conj', 'prep', 'pobj', 'prep', 'pobj', 'Disease']","Biochemical studies on carbohydrates. CLVI. On the sugar components of the hexosamine-containing carbohydrates from gastric_cancers, normal human gastric mucosa and human liver and of the glacial acetic_acid-soluble proteins from those tissues as well as a metastasis in liver of gastric_cancer."
+"['metastasis', 'gastric_cancer']","['Disease', 'prep', 'pobj', 'prep', 'pobj', 'Disease']","Biochemical studies on carbohydrates. CLVI. On the sugar components of the hexosamine-containing carbohydrates from gastric_cancers, normal human gastric mucosa and human liver and of the glacial acetic_acid-soluble proteins from those tissues as well as a metastasis in liver of gastric_cancer."

@@ -1,0 +1,15 @@
+"['aid', 'inguinal_hernias']","['Gene', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",Division of the spermatic cord as an aid in the repair of recurrent and other difficult inguinal_hernias.
+"['fibrinogen', 'chronic_arthritis']","['Gene', 'conj', 'conj', 'prep', 'pobj', 'Disease']","Corticotropin, protamine supplement and plasma fibrinogen levels in chronic_arthritis."
+"['catalase', 'tumor']","['Gene', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'compound', 'Disease']",Liver catalase activity in parabiotic rats with one partner tumor-bearing.
+"['catalase', 'tumor']","['Gene', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'compound', 'Disease']",Liver catalase activity in parabiotic rats with one partner tumor-bearing.
+"['Mucin', 'tumours']","['Gene', 'amod', 'ROOT', 'Disease']",Mucin-secreting tumours of the skin with special reference to the so-called mixed-salivary tumour of the skin and its relation to hidradenoma.
+"['Mucin', 'tumour']","['Gene', 'amod', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",Mucin-secreting tumours of the skin with special reference to the so-called mixed-salivary tumour of the skin and its relation to hidradenoma.
+"['Mucin', 'hidradenoma']","['Gene', 'amod', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'conj', 'prep', 'pobj', 'Disease']",Mucin-secreting tumours of the skin with special reference to the so-called mixed-salivary tumour of the skin and its relation to hidradenoma.
+"['Adrenocorticotropic_hormone', 'bronchiolitis']","['Gene', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",Adrenocorticotropic_hormone in the control of acute infantile bronchiolitis.
+"['insulin', 'allergy']","['Gene', 'appos', 'prep', 'pobj', 'prep', 'pobj', 'Disease']","Denatured insulin; a simplified, rapid means of treatment of allergy to insulin complicating diabetic_ketosis."
+"['insulin', 'diabetic_ketosis']","['Gene', 'appos', 'acl', 'dobj', 'Disease']","Denatured insulin; a simplified, rapid means of treatment of allergy to insulin complicating diabetic_ketosis."
+"['insulin', 'diabetic_ketosis']","['Gene', 'prep', 'appos', 'acl', 'dobj', 'Disease']","Denatured insulin; a simplified, rapid means of treatment of allergy to insulin complicating diabetic_ketosis."
+"['insulin', 'allergy']","['Gene', 'appos', 'prep', 'pobj', 'prep', 'pobj', 'Disease']","Denatured insulin; a simplified, rapid means of treatment of allergy to insulin complicating diabetic_ketosis."
+"['insulin', 'diabetic_ketosis']","['Gene', 'appos', 'acl', 'dobj', 'Disease']","Denatured insulin; a simplified, rapid means of treatment of allergy to insulin complicating diabetic_ketosis."
+"['AID', 'virus_disease']","['Gene', 'prep', 'pobj', 'compound', 'Disease']",AID in virus_disease diagnosis.
+"['adrenocorticotropic_hormone', 'chronic_diseases']","['Gene', 'amod', 'pobj', 'prep', 'pobj', 'Disease']",Practical problems of cortisone and adrenocorticotropic_hormone administration in chronic_diseases.

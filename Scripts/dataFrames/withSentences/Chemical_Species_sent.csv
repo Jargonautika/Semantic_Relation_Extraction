@@ -1,0 +1,112 @@
+"['phosphorus', 'Plasmodium_gallinaceum']","['Chemical', 'prep', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Species']",The use of phosphorus 32 in studies on Plasmodium_gallinaceum. I. The development of a method for the quantitative determination of parasite growth and development in vitro.
+"['phosphorus', 'Plasmodium_gallinaceum']","['Chemical', 'prep', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Species']",The use of phosphorus 32 in studies on Plasmodium_gallinaceum. II. Studies on conditions affecting parasite growth in intact cells and in lysates.
+"['cholesterol', 'rats']","['Chemical', 'prep', 'ROOT', 'appos', 'prep', 'pobj', 'Species']",Rate of cholesterol synthesis in hypo- and hyperthyroid rats.
+"['Asterol_dihydrochloride', 'Trichophyton_rubrum']","['Chemical', 'prep', 'pobj', 'acl', 'agent', 'pobj', 'nmod', 'Species']",Asterol_dihydrochloride in the treatment of dermatophytosis caused by Trichophyton_rubrum (purpureum).
+"['carbohydrate', 'patients']","['Chemical', 'pobj', 'prep', 'pobj', 'Species']","The diagnostic significance of certain tests of carbohydrate metabolism in psychiatric patients and the question of ""oneirophrenia""."
+"['folic_acid', 'human']","['Chemical', 'pobj', 'prep', 'pobj', 'amod', 'Species']",Some theoretical and practical aspects of the use of folic_acid antagonists in human neoplasia.
+"['sulfhydryl', 'rat']","['Chemical', 'dobj', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'Species']",Blood plasma sulfhydryl levels during growth and regression of the Murphy_lymphosarcoma of the rat.
+"['cortisone', 'guinea_pigs']","['Chemical', 'prep', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'Species']",The effect of cortisone on the early repair of brain wounds in guinea_pigs.
+"['vitamin_A', 'rats']","['Chemical', 'prep', 'ROOT', 'prep', 'pobj', 'Species']",Liver storage of vitamin_A by male and female rats.
+"['Ascorbic_acid', 'human']","['Chemical', 'ROOT', 'prep', 'pobj', 'Species']",Ascorbic_acid nutriture in the human. I. Tyrosine metabolism and blood levels of ascorbic acid during ascorbic acid depletion and repletion.
+"['carbohydrate', 'rats']","['Chemical', 'prep', 'pobj', 'prep', 'pobj', 'Species']",The influence of dietary fat and carbohydrate on reproduction and lactation in rats.
+"['creatinine', 'rats']","['Chemical', 'prep', 'pobj', 'Species']",Diminished urinary creatinine in vitamin_E deficient rats.
+"['vitamin_E', 'rats']","['Chemical', 'pobj', 'Species']",Diminished urinary creatinine in vitamin_E deficient rats.
+"['Thiamine', 'women']","['Chemical', 'ROOT', 'prep', 'pobj', 'Species']",Thiamine metabolism of women on controlled diets. I. Daily urinary thiamine excretion and its relation to creatinine excretion.
+"['lycopene', 'rat']","['Chemical', 'prep', 'ROOT', 'prep', 'pobj', 'Species']",Fate of lycopene in the rat and its effects on the utilization of carotene and vitamin_A.
+"['nitrogen', 'rat']","['Chemical', 'compound', 'pobj', 'prep', 'ROOT', 'prep', 'pobj', 'compound', 'Species']",Evaluation of nitrogen source materials by an intraperitoneal rat test.
+"['cobalt', 'sheep']","['Chemical', 'amod', 'pobj', 'Species']",Response of cobalt-deficient sheep to intravenously administered vitamin_B12.
+"['calcium', 'women']","['Chemical', 'prep', 'ROOT', 'prep', 'prep', 'pobj', 'Species']","The utilization of calcium from lactate, gluconate, sulfate and carbonate salts by young college women."
+"['lactate', 'women']","['Chemical', 'prep', 'prep', 'pobj', 'Species']","The utilization of calcium from lactate, gluconate, sulfate and carbonate salts by young college women."
+"['gluconate', 'women']","['Chemical', 'pobj', 'prep', 'prep', 'pobj', 'Species']","The utilization of calcium from lactate, gluconate, sulfate and carbonate salts by young college women."
+"['sulfate', 'women']","['Chemical', 'conj', 'pobj', 'prep', 'prep', 'pobj', 'Species']","The utilization of calcium from lactate, gluconate, sulfate and carbonate salts by young college women."
+"['carbonate', 'women']","['Chemical', 'conj', 'conj', 'conj', 'pobj', 'prep', 'prep', 'pobj', 'Species']","The utilization of calcium from lactate, gluconate, sulfate and carbonate salts by young college women."
+"['magnesium_sulfate', 'children']","['Chemical', 'prep', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Species']",The effects of magnesium_sulfate on renal function in children with acute glomerulonephritis.
+"['salicylate', 'rat']","['Chemical', 'prep', 'pobj', 'prep', 'pobj', 'Species']",The application of paper partition chromatography to the study of the metabolism of salicylate in the rat.
+"['potassium', 'dogs']","['Chemical', 'prep', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Species']",Loss of cellular potassium as a cause of intestinal_paralysis in dogs.
+"['histamine', 'guinea_pigs']","['Chemical', 'prep', 'pobj', 'prep', 'pobj', 'Species']","Vascular reactions to histamine, histamine-liberator and leukotaxine in the skin of guinea_pigs."
+"['histamine', 'guinea_pigs']","['Chemical', 'conj', 'acl', 'prep', 'pobj', 'prep', 'pobj', 'Species']","Vascular reactions to histamine, histamine-liberator and leukotaxine in the skin of guinea_pigs."
+"['leukotaxine', 'guinea_pigs']","['Chemical', 'conj', 'acl', 'prep', 'pobj', 'prep', 'pobj', 'Species']","Vascular reactions to histamine, histamine-liberator and leukotaxine in the skin of guinea_pigs."
+"['alloxan', 'rabbit']","['Chemical', 'prep', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Species']",The effect of alloxan intravenously on the blood pressure of the rabbit.
+"['vitamin_B12', 'rats']","['Chemical', 'prep', 'pobj', 'prep', 'pobj', 'Species']",[The effect of vitamin_B12 on fructose metabolism in the liver of rats].
+"['fructose', 'rats']","['Chemical', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'Species']",[The effect of vitamin_B12 on fructose metabolism in the liver of rats].
+"['cortisone', 'mouse']","['Chemical', 'prep', 'pobj', 'prep', 'pobj', 'compound', 'Species']",[Effect of cortisone on benzpyrene neoplasms of the mouse skin].
+"['benzpyrene', 'mouse']","['Chemical', 'pobj', 'prep', 'pobj', 'compound', 'Species']",[Effect of cortisone on benzpyrene neoplasms of the mouse skin].
+"['methionine', 'patients']","['Chemical', 'pobj', 'prep', 'pobj', 'Species']",[Behavior of the eosinophils after methionine applications in hypertensive patients].
+"['salicylamide', 'man']","['Chemical', 'prep', 'pobj', 'Species']",[Metabolism of salicylamide in man].
+"['polamidone', 'man']","['Chemical', 'prep', 'pobj', 'prep', 'pobj', 'Species']",[Effects of polamidone on the EEG of man].
+"['perchlorate', 'human']","['Chemical', 'prep', 'ROOT', 'prep', 'pobj', 'compound', 'amod', 'Species']",Effect of perchlorate on the human thyroid gland.
+"['cobaltous_chloride', 'rabbit']","['Chemical', 'prep', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'Species']",The effect of cobaltous_chloride on the blood sugar and alpha cells in the pancreatic islets of the rabbit.
+"['sugar', 'rabbit']","['Chemical', 'prep', 'pobj', 'prep', 'pobj', 'Species']",The effect of cobaltous_chloride on the blood sugar and alpha cells in the pancreatic islets of the rabbit.
+"['creatine', 'human']","['Chemical', 'pobj', 'prep', 'ROOT', 'prep', 'pobj', 'Species']",Studies in disorders of muscle. X. The site of creatine synthesis in the human.
+"['Methane', 'cattle']","['Chemical', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Species']",Methane fermentation in the rumen of cattle.
+"['phosphothreonine', 'bovine']","['Chemical', 'prep', 'ROOT', 'prep', 'pobj', 'amod', 'Species']",Isolation of phosphothreonine from bovine casein.
+"['epinephrine', 'cats']","['Chemical', 'prep', 'pobj', 'prep', 'ROOT', 'conj', 'conj', 'prep', 'pobj', 'Species']",[Change of circulatory effect of epinephrine and nor_arterenol and the vagal excitability in cats after bilateral adrenalectomy].
+"['nor_arterenol', 'cats']","['Chemical', 'conj', 'prep', 'pobj', 'Species']",[Change of circulatory effect of epinephrine and nor_arterenol and the vagal excitability in cats after bilateral adrenalectomy].
+"['cortisone', 'patients']","['Chemical', 'pobj', 'prep', 'pobj', 'Species']",Herpes_zoster during cortisone therapy in three patients with rheumatoid_arthritis.
+"['procaine', 'children']","['Chemical', 'dobj', 'ROOT', 'prep', 'pobj', 'Species']",[Single dose procaine penicillin injection for pneumonia in children].
+"['streptomycin', 'patients']","['Chemical', 'pobj', 'Species']",[Clinical experiences with streptomycin resistent patients].
+"['streptomycin', 'Mycobacterium_tuberculosis']","['Chemical', 'prep', 'pobj', 'prep', 'pobj', 'Species']",[Effect of massive application of streptomycin on development of Mycobacterium_tuberculosis in vitro].
+"['carbohydrate', 'cattle']","['Chemical', 'pobj', 'prep', 'pobj', 'Species']",Disturbances in carbohydrate metabolism in cattle associated with liver_disease.
+"['cortisone', 'guinea_pig']","['Chemical', 'prep', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'Species']",The influence of cortisone on the passive transfer of tuberculin hypersensitivity in the guinea_pig.
+"['Precipitin', 'chickens']","['Chemical', 'ROOT', 'prep', 'pobj', 'Species']","Precipitin production in chickens. VII. A comparison of the effect of salt concentration on precipitate formation of Pheasant, owl, and chicken antisera."
+"['cortisone', 'guinea_pigs']","['Chemical', 'pobj', 'prep', 'conj', 'pobj', 'prep', 'pobj', 'Species']",The influence of ACTH and cortisone upon experimental Achorion quinckeanum infection and upon anaphylaxis in guinea_pigs.
+"['bacitracin', 'dogs']","['Chemical', 'prep', 'ROOT', 'prep', 'pobj', 'Species']",Intracisternal injection of bacitracin in dogs.
+"['Thiamine', 'women']","['Chemical', 'ROOT', 'prep', 'pobj', 'Species']",Thiamine metabolism of women on controlled diets. II. Daily blood thiamine values.
+"['pantothenic_acid', 'swine']","['Chemical', 'nsubj', 'prep', 'pobj', 'prep', 'pobj', 'Species']",The pantothenic_acid content of the blood and milk of swine fed supplemental levels of the vitamin.
+"['pyridoxine', 'rats']","['Chemical', 'amod', 'pobj', 'Species']",Factors affecting the development of acrodynia in pyridoxine-deficient rats.
+"['Nitrogen', 'rats']","['Chemical', 'nsubj', 'prep', 'pobj', 'Species']","Nitrogen balance of adult rats fed diets low in L__and_DL_lysine, or devoid of arginine."
+"['B_vitamins', 'sheep']","['Chemical', 'prep', 'pobj', 'Species']","Synthesis of certain B_vitamins in the cobalt deficient sheep, with special reference to vitamin_B12."
+"['cobalt', 'sheep']","['Chemical', 'pobj', 'Species']","Synthesis of certain B_vitamins in the cobalt deficient sheep, with special reference to vitamin_B12."
+"['sodium_chloride', 'rat']","['Chemical', 'ROOT', 'prep', 'pobj', 'Species']",Chronic sodium_chloride toxicity in the albino rat. I. Growth on a purified diet containing various levels of sodium chloride.
+"['methionine', 'swine']","['Chemical', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Species']",The methionine requirement for the growth of swine.
+"['vitamin_B12', 'rats']","['Chemical', 'pobj', 'prep', 'ROOT', 'prep', 'pobj', 'Species']",The relation between vitamin_B12 deficiency_and_lactation in rats fed purified casein rations.
+"['terramycin', 'turkey']","['Chemical', 'prep', 'ROOT', 'conj', 'dobj', 'prep', 'pobj', 'prep', 'pobj', 'compound', 'Species']",Effect of terramycin and certain_phenylarsonic_acid derivatives on the growth and intestinal flora of turkey poults.
+"['certain_phenylarsonic_acid', 'turkey']","['Chemical', 'dobj', 'prep', 'pobj', 'prep', 'pobj', 'compound', 'Species']",Effect of terramycin and certain_phenylarsonic_acid derivatives on the growth and intestinal flora of turkey poults.
+"['glucose', 'sheep']","['Chemical', 'pobj', 'prep', 'pobj', 'Species']",Inability of diffusion to account for placental glucose transfer in the sheep and consideration of the kinetics of a possible carrier transfer.
+"['Histamine', 'dog']","['Chemical', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Species']",Histamine release by horse serum from skin of the sensitized dog and non-sensitized cat.
+"['adrenaline', 'rabbit']","['Chemical', 'prep', 'ROOT', 'conj', 'prep', 'pobj', 'prep', 'pobj', 'Species']",The action of adrenaline and noradrenaline on the placental and foetal circulations in the rabbit and guinea_pig.
+"['adrenaline', 'guinea_pig']","['Chemical', 'prep', 'ROOT', 'conj', 'prep', 'pobj', 'prep', 'pobj', 'conj', 'Species']",The action of adrenaline and noradrenaline on the placental and foetal circulations in the rabbit and guinea_pig.
+"['noradrenaline', 'rabbit']","['Chemical', 'prep', 'pobj', 'prep', 'pobj', 'Species']",The action of adrenaline and noradrenaline on the placental and foetal circulations in the rabbit and guinea_pig.
+"['noradrenaline', 'guinea_pig']","['Chemical', 'prep', 'pobj', 'prep', 'pobj', 'conj', 'Species']",The action of adrenaline and noradrenaline on the placental and foetal circulations in the rabbit and guinea_pig.
+"['adrenaline', 'rabbit']","['Chemical', 'prep', 'ROOT', 'conj', 'prep', 'pobj', 'prep', 'pobj', 'Species']",The action of adrenaline and noradrenaline on the placental and foetal circulations in the rabbit and guinea_pig.
+"['noradrenaline', 'rabbit']","['Chemical', 'prep', 'pobj', 'prep', 'pobj', 'Species']",The action of adrenaline and noradrenaline on the placental and foetal circulations in the rabbit and guinea_pig.
+"['cortisone', 'guinea_pig']","['Chemical', 'prep', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Species']",The action of cortisone in the anaphylactic shock of the guinea_pig.
+"['adrenaline', 'human']","['Chemical', 'pobj', 'prep', 'pobj', 'amod', 'Species']",On adrenaline and noradrenaline inactivation by human liver in vitro.
+"['noradrenaline', 'human']","['Chemical', 'nmod', 'pobj', 'prep', 'pobj', 'amod', 'Species']",On adrenaline and noradrenaline inactivation by human liver in vitro.
+"['Acetylcholine', 'Mytilus_edulis']","['Chemical', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Species']","Acetylcholine and ciliary movement in the gill plates of Mytilus_edulis, the common mussel."
+"['eserine', 'rabbit']","['Chemical', 'prep', 'ROOT', 'prep', 'pobj', 'poss', 'Species']",The action of eserine on isolated rabbit's auricles.
+"['Antihistamine', 'guinea_pig']","['Chemical', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Species']",Antihistamine action in the anaphylactic shock of the guinea_pig.
+"['banthine', 'human']","['Chemical', 'prep', 'pobj', 'prep', 'pobj', 'amod', 'Species']",Preliminary report; a study of the effects of banthine on the human bladder.
+"['corticosteroids', 'women']","['Chemical', 'prep', 'pobj', 'prep', 'pobj', 'Species']",[Elimination of corticosteroids in the urine of healthy women].
+"['succinic_acid', 'patients']","['Chemical', 'prep', 'pobj', 'prep', 'pobj', 'Species']",[Spirographic study on the action of succinic_acid in 117 patients].
+"['trichloroethylene', 'man']","['Chemical', 'prep', 'pobj', 'Species']",[Absorption and elimination of trichloroethylene in man].
+"['carbon_dioxide', 'potato']","['Chemical', 'prep', 'pobj', 'prep', 'pobj', 'compound', 'Species']","Studies in the respiratory and carbohydrate metabolism of plant tissues. I. Experimental studies of the formation of carbon_dioxide, lactic_acid and other products in potato tubers under anaerobic conditions."
+"['lactic_acid', 'potato']","['Chemical', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'compound', 'Species']","Studies in the respiratory and carbohydrate metabolism of plant tissues. I. Experimental studies of the formation of carbon_dioxide, lactic_acid and other products in potato tubers under anaerobic conditions."
+"['stilbamidine', 'mice']","['Chemical', 'prep', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Species']",Effect of stilbamidine on blastomycosis in mice.
+"['cholesterol', 'woman']","['Chemical', 'ROOT', 'prep', 'pobj', 'Species']",Serial cholesterol determinations in the healthy young woman.
+"['ethyl_alcohol', 'mice']","['Chemical', 'prep', 'ROOT', 'prep', 'pobj', 'Species']","The effect of ethyl_alcohol on growth, fecundity and voluntary consumption of alcohol by mice."
+"['alcohol', 'mice']","['Chemical', 'prep', 'conj', 'conj', 'pobj', 'prep', 'ROOT', 'prep', 'pobj', 'Species']","The effect of ethyl_alcohol on growth, fecundity and voluntary consumption of alcohol by mice."
+"['testosterone_propionate', 'rabbit']","['Chemical', 'prep', 'ROOT', 'conj', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'Species']",[Effect of testosterone_propionate and vitamin_D2 on the behavior of serum cholesterolase in the rabbit].
+"['vitamin_D2', 'rabbit']","['Chemical', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'Species']",[Effect of testosterone_propionate and vitamin_D2 on the behavior of serum cholesterolase in the rabbit].
+"['vitamin_E', 'rabbits']","['Chemical', 'conj', 'amod', 'pobj', 'Species']",[Comparative electron microscope research on the behavior of actin extracted from the muscle of normal and vitamin_E-deficient rabbits].
+"['khellin', 'dogs']","['Chemical', 'conj', 'conj', 'prep', 'pobj', 'Species']","[Comparative effects of khellin, aminophylline, and papaverine on arterial pressure and coronary circulation in dogs]."
+"['aminophylline', 'dogs']","['Chemical', 'conj', 'prep', 'pobj', 'Species']","[Comparative effects of khellin, aminophylline, and papaverine on arterial pressure and coronary circulation in dogs]."
+"['papaverine', 'dogs']","['Chemical', 'prep', 'pobj', 'Species']","[Comparative effects of khellin, aminophylline, and papaverine on arterial pressure and coronary circulation in dogs]."
+"['procaine', 'man']","['Chemical', 'pobj', 'prep', 'pobj', 'Species']",[Effects of intravenous procaine medications in man].
+"['lactose', 'Escherichia_coli']","['Chemical', 'conj', 'conj', 'prep', 'pobj', 'prep', 'pobj', 'Species']","[Comparative studies on lactose, glucose, and galactose metabolism in liquid cultures of Escherichia_coli]."
+"['glucose', 'Escherichia_coli']","['Chemical', 'conj', 'prep', 'pobj', 'prep', 'pobj', 'Species']","[Comparative studies on lactose, glucose, and galactose metabolism in liquid cultures of Escherichia_coli]."
+"['galactose', 'Escherichia_coli']","['Chemical', 'prep', 'pobj', 'prep', 'pobj', 'Species']","[Comparative studies on lactose, glucose, and galactose metabolism in liquid cultures of Escherichia_coli]."
+"['Acetate', 'dog']","['Chemical', 'ROOT', 'prep', 'pobj', 'Species']",Acetate utilization in the dog.
+"['arginine', 'dog']","['Chemical', 'pobj', 'prep', 'pobj', 'Species']",Microbiologic estimation of arginine Tm in the dog.
+"['maltose', 'yeasts']","['Chemical', 'prep', 'pobj', 'Species']",[Fermentation of maltose with thermophil yeasts].
+"['sulfonamide', 'man']","['Chemical', 'xcomp', 'prep', 'pobj', 'Species']",[Anatomical and pathological findings in acute sulfonamide poisoning in man].
+"['streptomycin', 'rabbits']","['Chemical', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'Species']",[PAS alone and associated with streptomycin in the treatment of experimental miliary pulmonary_tuberculosis in rabbits].
+"['albomycin', 'infants']","['Chemical', 'prep', 'pobj', 'Species']",[Application of albomycin in pneumonia in infants during their first months of life].
+"['thiamine', 'human']","['Chemical', 'nmod', 'pobj', 'prep', 'pobj', 'amod', 'Species']",Further reports on the relation between Arakawa's reaction and thiamine content of human milk. Part 2. Bound thiamine of human milk; 227th report of the peroxidase reaction.
+"['Thiamine', 'human']","['Chemical', 'prep', 'pobj', 'amod', 'Species']",Thiamine in human milk; as to the question of priority of identifying bound thiamine in it.
+"['sugar', 'human']","['Chemical', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'conj', 'amod', 'Species']","Biochemical studies on carbohydrates. CLVI. On the sugar components of the hexosamine-containing carbohydrates from gastric_cancers, normal human gastric mucosa and human liver and of the glacial acetic_acid-soluble proteins from those tissues as well as a metastasis in liver of gastric_cancer."
+"['sugar', 'human']","['Chemical', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'conj', 'conj', 'amod', 'Species']","Biochemical studies on carbohydrates. CLVI. On the sugar components of the hexosamine-containing carbohydrates from gastric_cancers, normal human gastric mucosa and human liver and of the glacial acetic_acid-soluble proteins from those tissues as well as a metastasis in liver of gastric_cancer."
+"['hexosamine', 'human']","['Chemical', 'amod', 'pobj', 'prep', 'pobj', 'conj', 'amod', 'Species']","Biochemical studies on carbohydrates. CLVI. On the sugar components of the hexosamine-containing carbohydrates from gastric_cancers, normal human gastric mucosa and human liver and of the glacial acetic_acid-soluble proteins from those tissues as well as a metastasis in liver of gastric_cancer."
+"['hexosamine', 'human']","['Chemical', 'amod', 'pobj', 'prep', 'pobj', 'conj', 'conj', 'amod', 'Species']","Biochemical studies on carbohydrates. CLVI. On the sugar components of the hexosamine-containing carbohydrates from gastric_cancers, normal human gastric mucosa and human liver and of the glacial acetic_acid-soluble proteins from those tissues as well as a metastasis in liver of gastric_cancer."
+"['carbohydrates', 'human']","['Chemical', 'prep', 'pobj', 'conj', 'amod', 'Species']","Biochemical studies on carbohydrates. CLVI. On the sugar components of the hexosamine-containing carbohydrates from gastric_cancers, normal human gastric mucosa and human liver and of the glacial acetic_acid-soluble proteins from those tissues as well as a metastasis in liver of gastric_cancer."
+"['carbohydrates', 'human']","['Chemical', 'prep', 'pobj', 'conj', 'conj', 'amod', 'Species']","Biochemical studies on carbohydrates. CLVI. On the sugar components of the hexosamine-containing carbohydrates from gastric_cancers, normal human gastric mucosa and human liver and of the glacial acetic_acid-soluble proteins from those tissues as well as a metastasis in liver of gastric_cancer."

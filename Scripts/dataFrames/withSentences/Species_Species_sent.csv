@@ -1,0 +1,19 @@
+"['infants', 'children']","['Species', 'conj', 'Species']",Pseudomonas_infections in infants and children.
+"['mice', 'rats']","['Species', 'conj', 'Species']",Comparative assays of antiepileptic drugs in mice and rats.
+"['Erysipelothrix_rhusiopathiae', 'pigs']","['Species', 'prep', 'pobj', 'prep', 'pobj', 'Species']",[Erysipelothrix_rhusiopathiae in tonsils of normal pigs].
+"['cattle', 'swine']","['Species', 'prep', 'conj', 'pobj', 'Species']",[Studies on leukergy in cattle and in swine].
+"['equine', 'guinea_pigs']","['Species', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'pobj', 'Species']",[Biology of virus of equine infectious abortion; inclusion bodies in organs of fetuses in guinea_pigs].
+"['guinea_pigs', 'equine']","['Species', 'acl', 'prep', 'pobj', 'amod', 'Species']",[Histopathology of organis of guinea_pigs infected with infectious equine abortion].
+"['equine', 'guinea_pigs']","['Species', 'prep', 'ROOT', 'appos', 'prep', 'pobj', 'Species']",[Biology of virus of infectious equine abortion; thermal reactions of guinea_pigs].
+"['children', 'infants']","['Species', 'conj', 'Species']",Sinusitis in children and infants.
+"['patients', 'children']","['Species', 'acl', 'prep', 'pobj', 'poss', 'Species']",[Incidence of catarrhal_infections in patients admitted to the Martinsvej children's hospital 1948].
+"['Bacillus_pyocyaneus', 'children']","['Species', 'prep', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Species']",[Pathogenic role of Bacillus_pyocyaneus in infections in children].
+"['mice', 'Trichophyton_rubrum']","['Species', 'prep', 'pobj', 'Species']",Deep_infection of mice with Trichophyton_rubrum (purpureum).
+"['house_mouse', 'Mus_musculus']","['Species', 'appos', 'Species']","Neurological actions caused by the mutant gene Trembler in the house_mouse (Mus_musculus, L.,) an investigation."
+"['infant', 'child']","['Species', 'conj', 'compound', 'Species']",An evaluation of the curd-forming properties of milk mixtures used in infant and child feeding.
+"['rabbit', 'guinea_pig']","['Species', 'conj', 'Species']",The action of adrenaline and noradrenaline on the placental and foetal circulations in the rabbit and guinea_pig.
+"['dog', 'dog']","['Species', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'ROOT', 'conj', 'prep', 'pobj', 'prep', 'pobj', 'Species']","The effect of streptokinase-streptodornase on the urinary bladder of the dog, and the use of streptokinase-streptodornase for dissolution of clotted blood in the urinary bladder of the dog."
+"['Salmonella_dublin', 'cattle']","['Species', 'ROOT', 'prep', 'pobj', 'Species']",[Salmonella_dublin vectors in cattle in the Sieradz district].
+"['Salmonella_dublin', 'cattle']","['Species', 'prep', 'pobj', 'prep', 'pobj', 'Species']",[Studies on bacteriophages for Salmonella_dublin in feces in cattle].
+"['guinea_pigs', 'human']","['Species', 'prep', 'pobj', 'prep', 'nsubj', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'amod', 'Species']",[Morphologic and experimental studies on the pathogenesis of acute_myeloid_leukemia; pathology of the bone marrow in guinea_pigs inoculated with the blood from human acute_myeloblastic_leukemia].
+"['human', 'human']","['Species', 'conj', 'conj', 'amod', 'Species']","Biochemical studies on carbohydrates. CLVI. On the sugar components of the hexosamine-containing carbohydrates from gastric_cancers, normal human gastric mucosa and human liver and of the glacial acetic_acid-soluble proteins from those tissues as well as a metastasis in liver of gastric_cancer."

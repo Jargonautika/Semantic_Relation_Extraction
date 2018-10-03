@@ -1,0 +1,8 @@
+"['Corticotropin', 'fibrinogen']","['Chemical', 'conj', 'conj', 'compound', 'Gene']"
+"['protamine', 'fibrinogen']","['Chemical', 'conj', 'conj', 'compound', 'Gene']"
+"['Philippine', 'May_1']","['Chemical', 'pobj', 'prep', 'conj', 'ROOT', 'intj', 'Gene']"
+"['cortisone', 'ACTH']","['Chemical', 'conj', 'Gene']"
+"['Arasol', 'fix']","['Chemical', 'appos', 'relcl', 'Gene']"
+"['sulfonamides', 'ACTH']","['Chemical', 'conj', 'conj', 'conj', 'Gene']"
+"['Philippine', 'May_1']","['Chemical', 'pobj', 'prep', 'pobj', 'prep', 'relcl', 'pobj', 'prep', 'ROOT', 'appos', 'Gene']"
+"['cortisone', 'adrenocorticotropic_hormone']","['Chemical', 'conj', 'Gene']"

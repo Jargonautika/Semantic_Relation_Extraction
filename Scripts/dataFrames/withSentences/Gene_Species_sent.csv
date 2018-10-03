@@ -1,0 +1,6 @@
+"['catalase', 'rats']","['Gene', 'ROOT', 'prep', 'pobj', 'Species']",Liver catalase activity in parabiotic rats with one partner tumor-bearing.
+"['Trembler', 'house_mouse']","['Gene', 'agent', 'acl', 'prep', 'pobj', 'Species']","Neurological actions caused by the mutant gene Trembler in the house_mouse (Mus_musculus, L.,) an investigation."
+"['Trembler', 'Mus_musculus']","['Gene', 'agent', 'acl', 'prep', 'pobj', 'appos', 'Species']","Neurological actions caused by the mutant gene Trembler in the house_mouse (Mus_musculus, L.,) an investigation."
+"['Trembler', 'house_mouse']","['Gene', 'agent', 'acl', 'prep', 'pobj', 'Species']","Neurological actions caused by the mutant gene Trembler in the house_mouse (Mus_musculus, L.,) an investigation."
+"['secretin', 'rats']","['Gene', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Species']",The secretin content of the intestine in normal and hypophysectomized rats.
+"['insulin', 'rabbits']","['Gene', 'pobj', 'prep', 'pobj', 'Species']",Variability of insulin response in standard rabbits.

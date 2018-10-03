@@ -1,0 +1,52 @@
+"['patients', 'tuberculous_meningitis']","['Species', 'prep', 'ROOT', 'prep', 'pobj', 'Disease']",Hearing of patients after tuberculous_meningitis.
+"['human', 'neoplasia']","['Species', 'pobj', 'Disease']",Some theoretical and practical aspects of the use of folic_acid antagonists in human neoplasia.
+"['rats', 'tumor']","['Species', 'prep', 'pobj', 'compound', 'Disease']",Liver catalase activity in parabiotic rats with one partner tumor-bearing.
+"['children', 'glomerulonephritis']","['Species', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",The effects of magnesium_sulfate on renal function in children with acute glomerulonephritis.
+"['children', 'cerebral_palsy']","['Species', 'prep', 'pobj', 'Disease']",The psychologic evaluation of children with cerebral_palsy and its implications in treatment; preliminary report.
+"['men', 'tetanus']","['Species', 'prep', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'compound', 'Disease']",Unexpected responses of actively immunized men to a boosting dose of tetanus toxoid.
+"['mumps_virus', 'meningoencephalitis']","['Species', 'prep', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",[Isolation of the mumps_virus from cerebrospinal fluid in mumps meningoencephalitis].
+"['Pneumocystis_Carinii', 'interstitial_pneumonia']","['Species', 'intj', 'dobj', 'Disease']",[Pneumocystis_Carinii causing interstitial_pneumonia].
+"['children', 'tuberculosis']","['Species', 'prep', 'ROOT', 'prep', 'pobj', 'Disease']",[Negative tuberculin reaction in children with active tuberculosis].
+"['patients', 'thoracic_injuries']","['Species', 'prep', 'ROOT', 'prep', 'pobj', 'Disease']",INITIAL management of patients with thoracic_injuries.
+"['Bovine', 'tuberculosis']","['Species', 'ROOT', 'Disease']",[Bovine tuberculosis; enzootic and endemic].
+"['cotton', 'Byssinosis']","['Species', 'pobj', 'prep', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",[Studies on cotton dust in relation to Byssinosis].
+"['Erysipelothrix_rhusiopathiae', 'allergic']","['Species', 'prep', 'dep', 'ROOT', 'appos', 'amod', 'Disease']",[Studies on Erysipelothrix_rhusiopathiae; studies on Staub hemagglutinating strains; allergic phenomenon].
+"['rats', 'hypertension']","['Species', 'prep', 'pobj', 'prep', 'ROOT', 'conj', 'Disease']",II. Establishment of hypertension in rats; hypertension caused by perinephritis.
+"['rats', 'perinephritis']","['Species', 'prep', 'pobj', 'prep', 'ROOT', 'conj', 'acl', 'agent', 'pobj', 'Disease']",II. Establishment of hypertension in rats; hypertension caused by perinephritis.
+"['infant', 'toxicosis']","['Species', 'ROOT', 'conj', 'Disease']",[Occult mastoiditis and infant toxicosis].
+"['mouse', 'tumours']","['Species', 'pobj', 'Disease']",Relative biological effectiveness of beatatron and conventional x-radiation on the regression of mouse tumours.
+"['persons', 'mental_disorders']","['Species', 'prep', 'pobj', 'Disease']",[Proposal for a federal law to protect persons with mental_disorders].
+"['patient', 'poliomyelitis']","['Species', 'acl', 'agent', 'pobj', 'Disease']",PRACTITIONERS' conference: rehabilitation of the patient paralyzed by poliomyelitis.
+"['patients', 'asthma']","['Species', 'prep', 'pobj', 'prep', 'ROOT', 'prep', 'pobj', 'Disease']",Contributions of anesthesiology to the management of patients with asthma.
+"['patients', 'rheumatoid_arthritis']","['Species', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",Herpes_zoster during cortisone therapy in three patients with rheumatoid_arthritis.
+"['infants', 'diabetic']","['Species', 'prep', 'pobj', 'amod', 'Disease']",[Prognosis of pregnancy diabetes and of infants of diabetic mothers].
+"['infant', 'toxicosis']","['Species', 'pobj', 'Disease']",[Otogenic factors in cases of infant toxicosis treated by continuous drip-infusion].
+"['patients', 'tuberculous_meningitis']","['Species', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",[The demonstration of tuberculin in the spinal fluid of patients with tuberculous_meningitis].
+"['cattle', 'liver_disease']","['Species', 'acl', 'prep', 'pobj', 'Disease']",Disturbances in carbohydrate metabolism in cattle associated with liver_disease.
+"['human', 'poliomyelitis']","['Species', 'pobj', 'Disease']",Levels of homotypic neutralizing antibody in human poliomyelitis three years after infection.
+"['human', 'infection']","['Species', 'pobj', 'prep', 'pobj', 'prep', 'ROOT', 'prep', 'pobj', 'Disease']",Levels of homotypic neutralizing antibody in human poliomyelitis three years after infection.
+"['mice', 'tetanus']","['Species', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'ROOT', 'acl', 'Disease']",The effect of environmental temperature on the immune response of mice to tetanus toxoid.
+"['patients', 'congestive_heart_failure']","['Species', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",Some physiological considerations in the treatment of patients with congestive_heart_failure.
+"['Human', 'auditory_hallucinations']","['Species', 'ROOT', 'appos', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",Human sonar; the amygdaloid nucleus in relation to auditory_hallucinations.
+"['child', 'hyperplasia']","['Species', 'prep', 'pobj', 'Disease']",Chorionepithelioma in a new-born male child with hyperplasia of the interstitial cells of the testis.
+"['guinea_pig', 'total_cerebral_anoxia']","['Species', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",[Effects of anesthesia and cold on the shallow respiration of the guinea_pig in total_cerebral_anoxia].
+"['patients', 'renal_lithiasis']","['Species', 'prep', 'ROOT', 'prep', 'pobj', 'Disease']",The management of patients with renal_lithiasis.
+"['children', 'tuberculosis']","['Species', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",Criteria for sanatorium admission of children with tuberculosis.
+"['patients', 'tuberculous_meningitis']","['Species', 'prep', 'ROOT', 'prep', 'pobj', 'Disease']",Hearing of patients after tuberculous_meningitis.
+"['human', 'cancer']","['Species', 'pobj', 'Disease']",Virus-like bodies in human cancer; a electron-microscope study of the filtrable components of normal and neoplastic tissue.
+"['Corns', 'callosities']","['Species', 'conj', 'Disease']","Corns, callosities and footwear."
+"['patient', 'typhoid_fever']","['Species', 'prep', 'pobj', 'Disease']","[Diagnosis, immunity, and condition of a patient in typhoid_fever; report of 103 cases with majority treated with chloramphenicol]."
+"['children', 'allergic']","['Species', 'prep', 'pobj', 'acl', 'prep', 'pobj', 'amod', 'Disease']",[Fate of children from pregnancies treated with anti-allergic substances].
+"['persons', 'chronic_disease']","['Species', 'prep', 'pobj', 'Disease']",The risk of disability for persons with chronic_disease.
+"['infant', 'toxicosis']","['Species', 'pobj', 'Disease']",[Antibiotic therapy of acute infant toxicosis].
+"['patients', 'rheumatoid_arthritis']","['Species', 'prep', 'pobj', 'Disease']",Response of patients with rheumatoid_arthritis to the administration of nitrogen mustard.
+"['rabbits', 'anoxia']","['Species', 'prep', 'pobj', 'prep', 'pobj', 'prep', 'nsubj', 'ROOT', 'xcomp', 'Disease']",[Electrophoretic study of the behavior of the blood proteins in rabbits subjected to anoxia].
+"['tobacco', 'scotoma']","['Species', 'prep', 'nsubj', 'intj', 'prep', 'pobj', 'Disease']",[Effect of tobacco and alcohol on retinal sensitivity determined with Goldmann's artificial scotoma; effects of their association with anoxia].
+"['tobacco', 'anoxia']","['Species', 'prep', 'nsubj', 'appos', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",[Effect of tobacco and alcohol on retinal sensitivity determined with Goldmann's artificial scotoma; effects of their association with anoxia].
+"['guinea_pigs', 'acute_myeloblastic_leukemia']","['Species', 'prep', 'pobj', 'prep', 'nsubj', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",[Morphologic and experimental studies on the pathogenesis of acute_myeloid_leukemia; pathology of the bone marrow in guinea_pigs inoculated with the blood from human acute_myeloblastic_leukemia].
+"['human', 'acute_myeloblastic_leukemia']","['Species', 'pobj', 'Disease']",[Morphologic and experimental studies on the pathogenesis of acute_myeloid_leukemia; pathology of the bone marrow in guinea_pigs inoculated with the blood from human acute_myeloblastic_leukemia].
+"['guinea_pigs', 'acute_myeloblastic_leukemia']","['Species', 'prep', 'pobj', 'prep', 'nsubj', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Disease']",[Morphologic and experimental studies on the pathogenesis of acute_myeloid_leukemia; pathology of the bone marrow in guinea_pigs inoculated with the blood from human acute_myeloblastic_leukemia].
+"['human', 'metastasis']","['Species', 'conj', 'pobj', 'prep', 'conj', 'pobj', 'prep', 'pobj', 'conj', 'Disease']","Biochemical studies on carbohydrates. CLVI. On the sugar components of the hexosamine-containing carbohydrates from gastric_cancers, normal human gastric mucosa and human liver and of the glacial acetic_acid-soluble proteins from those tissues as well as a metastasis in liver of gastric_cancer."
+"['human', 'gastric_cancer']","['Species', 'conj', 'pobj', 'prep', 'conj', 'pobj', 'prep', 'pobj', 'conj', 'prep', 'pobj', 'prep', 'pobj', 'Disease']","Biochemical studies on carbohydrates. CLVI. On the sugar components of the hexosamine-containing carbohydrates from gastric_cancers, normal human gastric mucosa and human liver and of the glacial acetic_acid-soluble proteins from those tissues as well as a metastasis in liver of gastric_cancer."
+"['human', 'metastasis']","['Species', 'conj', 'conj', 'pobj', 'prep', 'conj', 'pobj', 'prep', 'pobj', 'conj', 'Disease']","Biochemical studies on carbohydrates. CLVI. On the sugar components of the hexosamine-containing carbohydrates from gastric_cancers, normal human gastric mucosa and human liver and of the glacial acetic_acid-soluble proteins from those tissues as well as a metastasis in liver of gastric_cancer."
+"['human', 'gastric_cancer']","['Species', 'conj', 'conj', 'pobj', 'prep', 'conj', 'pobj', 'prep', 'pobj', 'conj', 'prep', 'pobj', 'prep', 'pobj', 'Disease']","Biochemical studies on carbohydrates. CLVI. On the sugar components of the hexosamine-containing carbohydrates from gastric_cancers, normal human gastric mucosa and human liver and of the glacial acetic_acid-soluble proteins from those tissues as well as a metastasis in liver of gastric_cancer."

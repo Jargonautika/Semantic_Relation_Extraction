@@ -1,0 +1,4 @@
+"['ACTH', 'cortisone']","['Gene', 'conj', 'Chemical']"
+"['B12', 'streptomycin']","['Gene', 'conj', 'Chemical']"
+"['VIII', 'serpentine']","['Gene', 'conj', 'amod', 'Chemical']"
+"['C21', 'steroids']","['Gene', 'pobj', 'Chemical']"
