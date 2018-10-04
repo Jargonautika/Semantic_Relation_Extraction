@@ -3,6 +3,7 @@
 import csv
 import spacy
 import itertools
+import numpy as np
 import networkx as nx
 from lxml import etree as ET
 from itertools import chain, combinations
@@ -28,16 +29,29 @@ def lex2Dep(deps, y):
 def powerSet(s):
 
     return chain.from_iterable(combinations(s,r) for r in range(len(s)+1))
-
+    
 
 def shortestDepPath(deps, graph, newEntityList, typeList):
 
+    if len(newEntityList) > 1:
+        print('newEntityList looks like', newEntityList)
+        pS = list(powerSet(newEntityList))
+        print('pS looks like ', pS)
+
+        resultSet = list()
+        for result in pS:
+            if len(result) > 1:
+               print(result) 
+               resultSet.append(result)
+        
+        return ()
+    
     # Needs more help with getting multiples over 2 in a newEntityList
     # Needs to take n entities in newEntityList as an input
     # Need to make sure that they are distinct entities (PubTator Annotation Type needs to factor in)
     # Need to concatenate a list when there are three+ distinct entities represented
     # Need to keep the order of precedence (smallest to largest)
-
+    """
     n = len(newEntityList)
     listOfLists = list()
     
@@ -55,21 +69,17 @@ def shortestDepPath(deps, graph, newEntityList, typeList):
                 if (j, formattedList) not in listOfLists:
                     listOfLists.append((j,formattedList))
 
-                """
-                for item in listOfLists:
-                    if item != y and item[-1] == y[0]:
-                        listOfLists.append(item+y[1:])
-                """
             except:
                 # Sometimes the sentTokenizer of spaCy doesn't work as expected and it will return two (or more?) sentences.
                 # That means that all of the entities in newEntityList that end up in this function, shortestDepPath,
                 # may not actually have a path between them. This except routes those out and returns nothing to downstream. 
                 pass
-            
+        else:
+            print(result)
     if listOfLists != None and listOfLists != []:
 
         return listOfLists
-
+    """
 
 # passageText is the lxml Element which contains the passageText. Get it by using passageText.text
 # entityList here is the same as the myPowerSet list below in makeGraph
@@ -113,14 +123,16 @@ def makeGraph(annoOffnText, myPowerSet):
     doc = nlp(newAnnoOffnText[1].text)
 
     realNewEntityList = list()
+    duplicateChecker = list()
     typeList = list()
     for token in doc:
         deps.append(token.dep_)
         heads.append(token.head)
 
         for annotation in newEntityList:
-            if (int(annotation[0].find('location').attrib.values()[0]) - int(newAnnoOffnText[0].text)) == token.idx and int(annotation[0].find('location').attrib.values()[1]) == len(token.text):
+            if (int(annotation[0].find('location').attrib.values()[0]) - int(newAnnoOffnText[0].text)) == token.idx and int(annotation[0].find('location').attrib.values()[1]) == len(token.text) and annotation not in duplicateChecker:
                 realNewEntityList.append(annotation[0].find('text').text + '-' + str(token.i))
+                duplicateChecker.append(annotation)
                 annoType = None
                 for infon in annotation[0]:
                     if infon.tag == 'infon' and infon.attrib.values()[0] == 'type':
@@ -131,10 +143,12 @@ def makeGraph(annoOffnText, myPowerSet):
             edges.append(('{0}-{1}'.format(token,token.i),
                           '{0}-{1}'.format(child,child.i)))
 
+    assert len(realNewEntityList) == len(duplicateChecker), "It appears that you don't have as many annotations in duplicateChecker as you do entities in realNewEntityList."
     assert len(realNewEntityList) == len(typeList), "It appears that you don't have as many types in typeList as you do entities in realNewEntityList."
     graph = nx.Graph(edges)
-
+    
     x = shortestDepPath(deps, graph, realNewEntityList, typeList)
+    print(list(zip(heads, deps)))
     print(x)
     
     if x != None:

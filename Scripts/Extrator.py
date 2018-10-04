@@ -119,6 +119,7 @@ for file in glob.glob('../Data/Extracted/PubTator.5000000_6000000.BioC.xml'):
                     corroborationMasterList = coOccurrence(passage)
                     if corroborationMasterList != None and corroborationMasterList != []:
                         masterList.append(corroborationMasterList)
+                passage.clear()
             if len(masterList) > 1:
                 Shortest_Dependency_Path.myFunct(masterList)
                 # Clear the node after dealing with it so as to not lose out on memory
@@ -126,7 +127,7 @@ for file in glob.glob('../Data/Extracted/PubTator.5000000_6000000.BioC.xml'):
             else:
                 # For nodes which are iteratively parsed but which are not tagged as documents
                 node.clear()
-        else:
-            node.clear()
+
+        node.clear()
 
         print(counter)
