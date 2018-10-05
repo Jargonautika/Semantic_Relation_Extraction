@@ -68,7 +68,10 @@ def shortestDepPath(deps, graph, newEntityList, typeList, annoOffnText):
             resultList = list()
             for i in range(len(result)-1):
                 #print(result, i)
-                y = nx.shortest_path(graph, source=result[i][0], target=result[i][1])
+                try:
+                    y = nx.shortest_path(graph, source=result[i][0], target=result[i][1])
+                except:
+                    continue
                 if len(y) > 2:
 
                     y = depMerge(y, deps)
@@ -81,9 +84,9 @@ def shortestDepPath(deps, graph, newEntityList, typeList, annoOffnText):
                             resultList.append(term.split('-')[0])
 
             u = (k.split('-')[0] for k in result[0])
-                        
+
             if resultList != []:
-                returnList.append((result[1], len(result[1]), resultList, tuple(u)))
+                returnList.append((result[1], len(result[0]), resultList, tuple(u)))
 
         return returnList
     else:
@@ -159,6 +162,9 @@ def makeGraph(annoOffnText, myPowerSet):
     x = shortestDepPath(deps, graph, realNewEntityList, typeList, annoOffnText)
     
     if x != None and x != []:
+
+        print(x[0][1], x[0][-1])
+        
         z = '-'.join(x[0][0])
         for item in x:
             
@@ -167,8 +173,8 @@ def makeGraph(annoOffnText, myPowerSet):
             c = ' '.join(item[2])
 
             with open("../Data/dataFrames/{0}/{1}.csv".format(a,z), "a") as csvFile:
-                c = csv.writer(csvFile)
-                c.writerow([b, c])
+                d = csv.writer(csvFile)
+                d.writerow([b, c])
 
             with open("../Data/dataFrames/{0}/withSentences/{1}_sent.csv".format(a,z), "a") as sentFile:
                 p = csv.writer(sentFile)
