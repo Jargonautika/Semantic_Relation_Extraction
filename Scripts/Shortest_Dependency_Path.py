@@ -11,12 +11,25 @@ from itertools import chain, combinations
 nlp = spacy.load('en')
 
 
-def lex2Dep(deps, y):
+def depMerge(y, deps):
+    returnList = list()
 
-    intList = [int(item.split('-')[-1]) for item in y]
-    returnList = [deps[i] for i in intList]
+    for i, item in enumerate(y):
+        returnList.append(item)
+        for dep in deps:
+            first = int(y[i].split('-')[-1])
+            second = None
+            try:
+                second = int(y[i+1].split('-')[-1])
+            except:
+                pass
 
+            if first == dep[1] and second != None and second == dep[2]:
+                returnList.append(dep[0])
+            elif first == dep[2] and second != None and second == dep[1]:
+                returnList.append(dep[0])
     return returnList
+
 
 # This function may be better served as a recursive function which sends all powersets up to the lex2Dep
 # function above. This would allow for all groups of two to be added together and then the tuples,
@@ -37,11 +50,15 @@ def shortestDepPath(deps, graph, newEntityList, typeList, annoOffnText):
     if len(newEntityList) > 1:
         pS = list(powerSet(newEntityList))
         #print('pS looks like ', pS)
+        tL = list(powerSet(typeList))
 
+        zL = list(zip(pS, tL))
+        
         resultSet = list()
-        for result in pS:
-            if len(result) > 1:
+        for result in zL:
+            if len(result[0]) > 1:
                 resultSet.append(result)
+        #print(resultSet)
 
         returnList = list()
         # results come in tuple format of an indeterminate length. At a minimum
@@ -50,61 +67,28 @@ def shortestDepPath(deps, graph, newEntityList, typeList, annoOffnText):
             # i is the index within the resultSet tuple/n-uple
             resultList = list()
             for i in range(len(result)-1):
-                print(result)
-                y = nx.shortest_path(graph, source=result[i], target=result[i+1])
+                #print(result, i)
+                y = nx.shortest_path(graph, source=result[i][0], target=result[i][1])
                 if len(y) > 2:
-                    if resultList == list():
-                        resultList = y
-                    else:
-                        assert resultList[-1] == y[0], "Uh-oh! Your n-uples aren't concatenating right!"
-                        resultList = resultList[:-1]
-                        for item in y:
-                            resultList.append(item)
-                    print('result length looks like ', len(result))
-                    print('y looks like ', y)
-                    print('passageText looks like ', annoOffnText[1].text)
-                    print('deps looks like ', deps)
-                    print()
-            returnList.append(resultList)
-        #return returnList
-        return ()
+
+                    y = depMerge(y, deps)
+
+                    for term in y:
+                        if term in result[0]:
+                            r = result[0].index(term)
+                            resultList.append(result[1][r])
+                        else:
+                            resultList.append(term.split('-')[0])
+
+            u = (k.split('-')[0] for k in result[0])
+                        
+            if resultList != []:
+                returnList.append((result[1], len(result[1]), resultList, tuple(u)))
+
+        return returnList
     else:
         return None
     
-    # Needs more help with getting multiples over 2 in a newEntityList
-    # Needs to take n entities in newEntityList as an input
-    # Need to make sure that they are distinct entities (PubTator Annotation Type needs to factor in)
-    # Need to concatenate a list when there are three+ distinct entities represented
-    # Need to keep the order of precedence (smallest to largest)
-    """
-    n = len(newEntityList)
-    listOfLists = list()
-    
-    for result in powerSet(newEntityList):
-        if len(result) == 2 and result[0] != result[1]:
-            j = [result[0].split('-')[0], result[1].split('-')[0]]
-            try:
-                y = nx.shortest_path(graph, source=result[0], target=result[1])
-                formattedList = lex2Dep(deps, y)
-                for tup in list(zip(newEntityList, typeList)):
-                    if result[0] in tup[0] and formattedList[0] != tup[1]:
-                        formattedList[0] = tup[1]
-                    elif result[1] in tup[0] and formattedList[-1] != tup[1]:
-                        formattedList.append(tup[1])
-                if (j, formattedList) not in listOfLists:
-                    listOfLists.append((j,formattedList))
-
-            except:
-                # Sometimes the sentTokenizer of spaCy doesn't work as expected and it will return two (or more?) sentences.
-                # That means that all of the entities in newEntityList that end up in this function, shortestDepPath,
-                # may not actually have a path between them. This except routes those out and returns nothing to downstream. 
-                pass
-        else:
-            print(result)
-    if listOfLists != None and listOfLists != []:
-
-        return listOfLists
-    """
 
 # passageText is the lxml Element which contains the passageText. Get it by using passageText.text
 # entityList here is the same as the myPowerSet list below in makeGraph
@@ -151,7 +135,7 @@ def makeGraph(annoOffnText, myPowerSet):
     duplicateChecker = list()
     typeList = list()
     for token in doc:
-        deps.append((token.dep_, token.i))
+        deps.append((token.dep_, token.i, token.head.i))
         heads.append(token.head)
 
         for annotation in newEntityList:
@@ -173,16 +157,22 @@ def makeGraph(annoOffnText, myPowerSet):
     graph = nx.Graph(edges)
     
     x = shortestDepPath(deps, graph, realNewEntityList, typeList, annoOffnText)
-    #print(list(zip(heads, deps)))
-    #print(x)
     
-    if x != None:
+    if x != None and x != []:
+        z = '-'.join(x[0][0])
         for item in x:
-            c = csv.writer(open('../Data/dataFrames/{0}_{1}.csv'.format(item[1][0], item[1][-1]), 'a'))
-            c.writerow([item[0], item[1]])
+            
+            a = str(item[1])
+            b = ' '.join(item[-1])
+            c = ' '.join(item[2])
 
-            p = csv.writer(open('../Data/dataFrames/withSentences/{0}_{1}_sent.csv'.format(item[1][0], item[1][-1]), 'a'))
-            p.writerow([item[0], item[1], doc.text])
+            with open("../Data/dataFrames/{0}/{1}.csv".format(a,z), "a") as csvFile:
+                c = csv.writer(csvFile)
+                c.writerow([b, c])
+
+            with open("../Data/dataFrames/{0}/withSentences/{1}_sent.csv".format(a,z), "a") as sentFile:
+                p = csv.writer(sentFile)
+                p.writerow([b, c, doc.text])
                   
     
 # The masterList comes in a very specific format that looks like the following:

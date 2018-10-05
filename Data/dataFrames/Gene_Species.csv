@@ -1,6 +1,0 @@
-"['catalase', 'rats']","['Gene', 'ROOT', 'prep', 'pobj', 'Species']"
-"['Trembler', 'house_mouse']","['Gene', 'agent', 'acl', 'prep', 'pobj', 'Species']"
-"['Trembler', 'Mus_musculus']","['Gene', 'agent', 'acl', 'prep', 'pobj', 'appos', 'Species']"
-"['Trembler', 'house_mouse']","['Gene', 'agent', 'acl', 'prep', 'pobj', 'Species']"
-"['secretin', 'rats']","['Gene', 'ROOT', 'prep', 'pobj', 'prep', 'pobj', 'Species']"
-"['insulin', 'rabbits']","['Gene', 'pobj', 'prep', 'pobj', 'Species']"
