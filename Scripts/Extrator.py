@@ -101,7 +101,7 @@ for file in glob.glob('../Data/Extracted/PubTator.5000000_6000000.BioC.xml'):
     for event, node in ET.iterparse(file, tag='document'):
         
         counter += 1
-        if counter > 20000:
+        if counter > 15:
             break
         
         PMID = None

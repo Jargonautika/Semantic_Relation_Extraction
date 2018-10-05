@@ -27,24 +27,49 @@ def lex2Dep(deps, y):
 
 
 def powerSet(s):
-
+    # Returns a chain object (which can be turned into a list)
+    # The length of the chain will be 2^len(s)
     return chain.from_iterable(combinations(s,r) for r in range(len(s)+1))
     
 
-def shortestDepPath(deps, graph, newEntityList, typeList):
+def shortestDepPath(deps, graph, newEntityList, typeList, annoOffnText):
 
     if len(newEntityList) > 1:
-        print('newEntityList looks like', newEntityList)
         pS = list(powerSet(newEntityList))
-        print('pS looks like ', pS)
+        #print('pS looks like ', pS)
 
         resultSet = list()
         for result in pS:
             if len(result) > 1:
-               print(result) 
-               resultSet.append(result)
-        
+                resultSet.append(result)
+
+        returnList = list()
+        # results come in tuple format of an indeterminate length. At a minimum
+        # they are 2 elements long. The max is unforeseeable, so iterate through them
+        for result in resultSet:
+            # i is the index within the resultSet tuple/n-uple
+            resultList = list()
+            for i in range(len(result)-1):
+                print(result)
+                y = nx.shortest_path(graph, source=result[i], target=result[i+1])
+                if len(y) > 2:
+                    if resultList == list():
+                        resultList = y
+                    else:
+                        assert resultList[-1] == y[0], "Uh-oh! Your n-uples aren't concatenating right!"
+                        resultList = resultList[:-1]
+                        for item in y:
+                            resultList.append(item)
+                    print('result length looks like ', len(result))
+                    print('y looks like ', y)
+                    print('passageText looks like ', annoOffnText[1].text)
+                    print('deps looks like ', deps)
+                    print()
+            returnList.append(resultList)
+        #return returnList
         return ()
+    else:
+        return None
     
     # Needs more help with getting multiples over 2 in a newEntityList
     # Needs to take n entities in newEntityList as an input
@@ -126,7 +151,7 @@ def makeGraph(annoOffnText, myPowerSet):
     duplicateChecker = list()
     typeList = list()
     for token in doc:
-        deps.append(token.dep_)
+        deps.append((token.dep_, token.i))
         heads.append(token.head)
 
         for annotation in newEntityList:
@@ -147,9 +172,9 @@ def makeGraph(annoOffnText, myPowerSet):
     assert len(realNewEntityList) == len(typeList), "It appears that you don't have as many types in typeList as you do entities in realNewEntityList."
     graph = nx.Graph(edges)
     
-    x = shortestDepPath(deps, graph, realNewEntityList, typeList)
-    print(list(zip(heads, deps)))
-    print(x)
+    x = shortestDepPath(deps, graph, realNewEntityList, typeList, annoOffnText)
+    #print(list(zip(heads, deps)))
+    #print(x)
     
     if x != None:
         for item in x:
