@@ -162,14 +162,15 @@ def makeGraph(annoOffnText, myPowerSet):
     x = shortestDepPath(deps, graph, realNewEntityList, typeList, annoOffnText)
     
     if x != None and x != []:
-
-        print(x[0][1], x[0][-1])
         
-        z = '-'.join(x[0][0])
         for item in x:
-            
+            # z represents the types of entities combined in this n-uple
+            z = '-'.join(map(str, x[0][0]))
+            # a represents how many entities are in this n-uple
             a = str(item[1])
+            # b represents the named entities
             b = ' '.join(item[-1])
+            # c represents the dependency path between the entities
             c = ' '.join(item[2])
 
             with open("../Data/dataFrames/{0}/{1}.csv".format(a,z), "a") as csvFile:
