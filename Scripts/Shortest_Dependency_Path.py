@@ -158,8 +158,11 @@ def makeGraph(annoOffnText, myPowerSet):
     assert len(realNewEntityList) == len(duplicateChecker), "It appears that you don't have as many annotations in duplicateChecker as you do entities in realNewEntityList."
     assert len(realNewEntityList) == len(typeList), "It appears that you don't have as many types in typeList as you do entities in realNewEntityList."
     graph = nx.Graph(edges)
-    
+
+    # x is a list of tuples
+    # [((Entity, Entity, Entity, ...), 3, [Dependency Path], (Entity Name, Entity Name, ...))]
     x = shortestDepPath(deps, graph, realNewEntityList, typeList, annoOffnText)
+    print(x)
     
     if x != None and x != []:
         

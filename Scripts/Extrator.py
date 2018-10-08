@@ -99,11 +99,11 @@ for file in glob.glob('../Data/Extracted/PubTator.5000000_6000000.BioC.xml'):
     counter = 0
 
     for event, node in ET.iterparse(file, tag='document'):
-        
+
         counter += 1
-        if counter > 200:
-            break
-        
+        #if counter > 200:
+            #break
+
         PMID = None
         
         if node.tag == 'document':
