@@ -177,13 +177,18 @@ def makeGraph(annoOffnText, myPowerSet):
             c = ' '.join(item[2])
 
             with open("../Data/dataFrames/{0}/{1}.csv".format(a,z), "a") as csvFile:
-                d = csv.writer(csvFile)
-                d.writerow([b, c])
-
+                try:
+                    d = csv.writer(csvFile)
+                    d.writerow([b, c])
+                except:
+                    pass
+                
             with open("../Data/dataFrames/{0}/withSentences/{1}_sent.csv".format(a,z), "a") as sentFile:
-                p = csv.writer(sentFile)
-                p.writerow([b, c, doc.text])
-                  
+                try:
+                    p = csv.writer(sentFile)
+                    p.writerow([b, c, doc.text])
+                except:
+                    pass
     
 # The masterList comes in a very specific format that looks like the following:
 # ['PMID', [('passageType', (passageOffsetAnno, passageTextAnno)), {int(sentNum): [annotation, annotation, ... ]}]]
