@@ -91,7 +91,7 @@ def coOccurrence(passage):
         if len(corroborationMasterList) > 1:
             return corroborationMasterList
 
-for file in glob.glob('../Data/Extracted/PubTator.5000000_6000000.BioC.xml'):
+for file in glob.glob('../Data/Extracted/*ioC.xml'):
     # Reads in the large files from PubTator that were downloaded over FTP dated early 2017.
     # These files are too large to be read into memory and thus we use the iterparse
     # method to slowly go through them document by document. Each one represents roughly a million documents
@@ -101,7 +101,7 @@ for file in glob.glob('../Data/Extracted/PubTator.5000000_6000000.BioC.xml'):
     for event, node in ET.iterparse(file, tag='document'):
 
         counter += 1
-        #if counter > 200:
+        #if counter > 2000:
             #break
 
         PMID = None
@@ -130,4 +130,4 @@ for file in glob.glob('../Data/Extracted/PubTator.5000000_6000000.BioC.xml'):
 
         node.clear()
 
-        print(counter)
+        #print(counter)

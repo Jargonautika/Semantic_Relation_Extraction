@@ -51,15 +51,14 @@ def shortestDepPath(deps, graph, newEntityList, typeList, annoOffnText):
         pS = list(powerSet(newEntityList))
         #print('pS looks like ', pS)
         tL = list(powerSet(typeList))
-
+        assert len(pS) == len(tL), 'Your powerSet in shortestDepPath is not the same length as your typeList'
         zL = list(zip(pS, tL))
-        
+                
         resultSet = list()
         for result in zL:
             if len(result[0]) > 1:
                 resultSet.append(result)
-        #print(resultSet)
-
+        
         returnList = list()
         # results come in tuple format of an indeterminate length. At a minimum
         # they are 2 elements long. The max is unforeseeable, so iterate through them
@@ -82,12 +81,11 @@ def shortestDepPath(deps, graph, newEntityList, typeList, annoOffnText):
                             resultList.append(result[1][r])
                         else:
                             resultList.append(term.split('-')[0])
-
             u = (k.split('-')[0] for k in result[0])
 
             if resultList != []:
                 returnList.append((result[1], len(result[0]), resultList, tuple(u)))
-
+        #print(returnList)
         return returnList
     else:
         return None
@@ -125,7 +123,6 @@ def reformat(annoOffnText, entityList):
 # [(annotation,), (annotation,), ... ]
 
 def makeGraph(annoOffnText, myPowerSet):
-
     # newPassageText is an lxml Element with an updated .text
     # newEntityList has reformatted entities (spaces taken out so far)
     # newEntityList also comes in the format [(entityAddress,),(entityObject,)]
@@ -162,40 +159,41 @@ def makeGraph(annoOffnText, myPowerSet):
     # x is a list of tuples
     # [((Entity, Entity, Entity, ...), 3, [Dependency Path], (Entity Name, Entity Name, ...))]
     x = shortestDepPath(deps, graph, realNewEntityList, typeList, annoOffnText)
-    print(x)
+    #print(x)
     
     if x != None and x != []:
-        
-        for item in x:
-            # z represents the types of entities combined in this n-uple
-            z = '-'.join(map(str, x[0][0]))
-            # a represents how many entities are in this n-uple
-            a = str(item[1])
-            # b represents the named entities
-            b = ' '.join(item[-1])
-            # c represents the dependency path between the entities
-            c = ' '.join(item[2])
+        try:
+            for item in x:
+                # z represents the types of entities combined in this n-uple
+                z = '-'.join(map(str, x[0][0]))
+                # a represents how many entities are in this n-uple
+                a = str(item[1])
+                # b represents the named entities
+                b = ' '.join(item[-1])
+                # c represents the dependency path between the entities
+                c = ' '.join(item[2])
 
-            with open("../Data/dataFrames/{0}/{1}.csv".format(a,z), "a") as csvFile:
-                try:
-                    d = csv.writer(csvFile)
-                    d.writerow([b, c])
-                except:
-                    pass
+                with open("../Data/dataFrames/{0}/{1}.csv".format(a,z), "a") as csvFile:
+                    try:
+                        d = csv.writer(csvFile)
+                        d.writerow([b, c])
+                    except:
+                        pass
                 
-            with open("../Data/dataFrames/{0}/withSentences/{1}_sent.csv".format(a,z), "a") as sentFile:
-                try:
-                    p = csv.writer(sentFile)
-                    p.writerow([b, c, doc.text])
-                except:
-                    pass
-    
+                with open("../Data/dataFrames/{0}/withSentences/{1}_sent.csv".format(a,z), "a") as sentFile:
+                    try:
+                        p = csv.writer(sentFile)
+                        p.writerow([b, c, doc.text])
+                    except:
+                        pass
+        except:
+            pass
 # The masterList comes in a very specific format that looks like the following:
 # ['PMID', [('passageType', (passageOffsetAnno, passageTextAnno)), {int(sentNum): [annotation, annotation, ... ]}]]
 def myFunct(masterList):
     annoList = list(masterList[1][1].values())[0]
-    for i in range(0,len(annoList)+1):
-        # Is this actually a powerSet?
-        myPowerSet = list(itertools.combinations(annoList, i))
-        if len(myPowerSet) > 1:
-            makeGraph(masterList[1][0][1], myPowerSet)
+    if len(annoList) < 7:
+        for i in range(0,len(annoList)+1):
+            myPowerSet = list(itertools.combinations(annoList, i))
+            if len(myPowerSet) > 1:
+                makeGraph(masterList[1][0][1], myPowerSet)
