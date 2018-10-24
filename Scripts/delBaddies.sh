@@ -1,1 +1,1 @@
-find ../Data/dataFrames/ -maxdepth 3 -type f -delete
+find ../Data/dataFrames/ -maxdepth 8 -type f -delete

@@ -33,7 +33,10 @@ def sentSplitter(passageText):
     # Sentence tokenization step. How many sentences are in a given passageText?
     for sent in doc.sents:
         sentCount += 1
+        # x is the sentence index. passageText could be an entire abstract, so we have to know which
+        # sentence we are dealing with inside of that larger paragraph or paragraphs
         x = str(doc).index(str(sent))
+        # y gives the character offsets for a given sentence
         y = x + len(str(sent))
         sentList.append({sentCount:(x,y)})
     return sentList
@@ -45,6 +48,7 @@ def coOccurrence(passage):
     # Each infon in a passage contains some bit of metadata related to the title or abstract that it is
     # Some of these deal with offset/length information. Others are actually 'annotations'
     # The 'text' infon tag here refers to the actual string that is the title or abstract
+    checkTypeList = list()
     for infon in passage:
         if infon.tag == 'text':
         # Get the offsets for the sentence here. It is not yet clear whether these are actually 100% correct or
@@ -54,6 +58,7 @@ def coOccurrence(passage):
 
         # The annotation infon contains the named entity that has been encoded.
         elif infon.tag == 'annotation':
+            # sent is a dictionary with sentence indices as key and offset tuples as value
             for sent in sentList:
                 sentNum = list(sent.keys())[0]
                 for location in infon:
@@ -62,13 +67,20 @@ def coOccurrence(passage):
                         sentLen = list(sent.values())[0][1]
                         annoOff = int(location.attrib.values()[0])
                         annoLen = int(location.attrib.values()[1])
+
+                        p = infon.find('location').attrib.values()
                     
                         # Corroborate that for a given annotation, it is indeed found within a single sentence.
-                        if annoOff >= sentOff and annoOff + annoLen <= sentLen:
+                        # The second half indicates that it is not a duplicate of itself that has been tagged with
+                        # a different annotation type.
+                        if annoOff >= sentOff and annoOff + annoLen <= sentLen and p not in checkTypeList:
                             coOccurrenceList.append({sentNum:infon})
+                            checkTypeList.append(p)
+    #print(checkTypeList)
     if coOccurrenceList == []:
         return None
     else:
+        #print(coOccurrenceList)
         # Return a list containing lists with all of the annotations grouped together by sentence they fall into.
         corroborationMasterList = [(passage.find('infon').text,(passage.find('offset'),passage.find('text')))]
         sentNumList = list()
@@ -98,23 +110,23 @@ for file in glob.glob('../Data/Extracted/*ioC.xml'):
     print(os.path.basename(file))
     counter = 0
 
-    for event, node in ET.iterparse(file, tag='document'):
+    for event, document in ET.iterparse(file, tag='document'):
 
         counter += 1
-        #if counter > 2000:
-            #break
+        if counter > 200:
+            break
 
         PMID = None
         
-        if node.tag == 'document':
+        if document.tag == 'document':
             # Retrieve the unique identifying information for the PubMed ID of the document
-            masterList = [node.find('id').text]
-            for passage in node:
+            masterList = [document.find('id').text]
+            for passage in document:
                 if passage.tag == 'id':
                     PMID = passage.text
                     # These passages represent the titles and abstracts of a given PubMed article
-                    # In PubMed Central (PMC), these will also represent deeper structure such as
-                    # sections and subsections of an article.
+                    # In PubMed Central (PMC), in PubMed Central articles these will also represent
+                    # deeper structure such as sections and subsections of an article.
                 elif passage.tag == 'passage':
                     corroborationMasterList = coOccurrence(passage)
                     if corroborationMasterList != None and corroborationMasterList != []:
@@ -123,11 +135,11 @@ for file in glob.glob('../Data/Extracted/*ioC.xml'):
             if len(masterList) > 1:
                 Shortest_Dependency_Path.myFunct(masterList)
                 # Clear the node after dealing with it so as to not lose out on memory
-                node.clear()
+                document.clear()
             else:
                 # For nodes which are iteratively parsed but which are not tagged as documents
-                node.clear()
+                document.clear()
 
-        node.clear()
+        document.clear()
 
         #print(counter)
