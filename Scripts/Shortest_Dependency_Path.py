@@ -120,7 +120,7 @@ def reformat(annoOffnText, myPowerSet):
 # myPowerSet looks like the following:
 # [(<Element annotation at 0x7fac48080cc8>,), (<Element annotation at 0x7fac480f1c48>,)]
 # Each call to makeGraph represents a single sentence in the corpus that has more than one annotation
-def makeGraph(annoOffnText, myPowerSet, z):
+def makeGraph(annoOffnText, myPowerSet, z, masterCheckList):
     # newPassageText is an lxml Element with an updated .text
     # newEntityList has reformatted entities (spaces taken out so far)
     # newEntityList also comes in the format [(entityAddress,),(entityObject,)]
@@ -163,42 +163,46 @@ def makeGraph(annoOffnText, myPowerSet, z):
     # x is a list of tuples of the following format:
     # [(('Gene', 'Species'), 2, ['Gene', 'amod', 'cbfal', 'pobj', 'of', 'prep', 'domains', 'nsubj', 'are', 'acomp', 'conserved', 'prep', 'between', 'pobj', 'Species'], ('opg', 'medaka'))]
     x = shortestDepPath(deps, graph, realNewEntityList, typeList, annoOffnText)
-    
     if x != None and x != []:
+        if x not in masterCheckList:
+            masterCheckList.append(x)
+            try:
+                for item in x:
+                    
+                    # z represents the types of entities combined in this n-uple
+                    z = '-'.join(map(str, (x for x in item[0])))
+                    # a represents how many entities are in this n-uple
+                    a = str(len(item[0]))
+                    # b represents the named entities
+                    b = ' '.join(item[-1])
+                    # c represents the dependency path between the entities
+                    c = ' '.join(item[2])
 
-        try:
-            for item in x:
-                # z represents the types of entities combined in this n-uple
-                z = '-'.join(map(str, (x for x in typeList)))
-                # a represents how many entities are in this n-uple
-                a = str(item[1])
-                # b represents the named entities
-                b = ' '.join(item[-1])
-                # c represents the dependency path between the entities
-                c = ' '.join(item[2])
-                """
-                print('item', item)
-                print('z', z)
-                print('a', a)
-                print('b', b)
-                print('c', c)
-                print()
-                """
-                with open("../Data/dataFrames/{0}/{1}.csv".format(a,z), "a") as csvFile:
-                    try:
-                        d = csv.writer(csvFile)
-                        d.writerow([[b], [c]])
-                    except:
-                        pass
+                    """
+                    print('item', item)
+                    print('z', z)
+                    print('a', a)
+                    print('b', b)
+                    print('c', c)
+                    print()
+                    """
                 
-                with open("../Data/dataFrames/{0}/withSentences/{1}_sent.csv".format(a,z), "a") as sentFile:
-                    try:
-                        p = csv.writer(sentFile)
-                        p.writerow([[b], [c], doc.text])
-                    except:
-                        pass
-        except:
-            pass
+                    with open("../Data/dataFrames/{0}/{1}.csv".format(a,z), "a") as csvFile:
+                        try:
+                            d = csv.writer(csvFile)
+                            d.writerow([[b], [c]])
+                        except:
+                            pass
+                
+                    with open("../Data/dataFrames/{0}/withSentences/{1}_sent.csv".format(a,z), "a") as sentFile:
+                        try:
+                            p = csv.writer(sentFile)
+                            p.writerow([[b], [c], doc.text])
+                        except:
+                            pass
+            except:
+                pass
+    return masterCheckList
 # The masterList comes in a very specific format that looks like the following:
 
 # ['15000003', [('title',    (<Element offset at 0x7f8d74c7e488>, <Element text at 0x7f8d74d1d708>)),
@@ -208,6 +212,7 @@ def makeGraph(annoOffnText, myPowerSet, z):
 
 def myFunct(masterList):
 
+    masterCheckList = list()
     for x in range(1,len(masterList)):
         for y in range(1,len(masterList[x])):
             annoList = list(masterList[x][y].values())[0]
@@ -217,4 +222,6 @@ def myFunct(masterList):
                 for i in range(0,len(annoList)+1):
                     myPowerSet.append(list(itertools.combinations(annoList, i)))
                     if len(myPowerSet) > 1:
-                        makeGraph(masterList[x][0][1], myPowerSet, sentI)
+                        checkerList = makeGraph(masterList[x][0][1], myPowerSet, sentI, masterCheckList)
+                        masterCheckList.append(item for item in checkerList if item not in masterCheckList)
+

@@ -142,4 +142,4 @@ for file in glob.glob('../Data/Extracted/*ioC.xml'):
 
         document.clear()
 
-        #print(counter)
+        print(counter)
