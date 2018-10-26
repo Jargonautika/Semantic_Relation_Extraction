@@ -11,22 +11,18 @@ from itertools import chain, combinations
 nlp = spacy.load('en')
 
 
-def depMerge(y, deps):
+def depMerge(y, deps, argMin, argMax):
 
     returnList = list()
 
-    for i, item in enumerate(y):
+    for item in y:
+        print(item)
         returnList.append(item)
-        first = int(y[i].split('-')[-1])
-        second = None
-        try:
-            second = int(y[i+1].split('-')[-1])
-        except:
-            pass
         for dep in deps:
-            if first == dep[1] and second != None and second == dep[2]:
+            print(dep)
+            if argMin == int(dep[1]) and argMax == int(dep[2]):
                 returnList.append(dep[0])
-            elif first == dep[2] and second != None and second == dep[1]:
+            elif argMin == int(dep[2]) and argMax == int(dep[1]):
                 returnList.append(dep[0])
     
     return returnList
@@ -80,30 +76,55 @@ def shortestDepPath(deps, graph, newEntityList, typeList, annoOffnText):
         for result in resultSet:
             # i is the index within the resultSet tuple/n-uple
             resultList = list()
-            concatList = list()
+            """
             for i in range(len(result[0])-1):
+                
                 j = i+1
                 try:
                     y = nx.shortest_path(graph, source=result[0][i], target=result[0][j])
                     if concatList != []:
-                        assert concatList[-1] == y[0], "Uh-oh, you're not concatenating the right lists..."
-                        concatList[:-1].append(item for item in y[1:])
-                        print(list(concatList))
+                        if concatList[-1] == y[0]:
+                            concatList = concatList[:-1]
+                            print('concatList missing -1', concatList)
+                            print('the y to be added', y)
+                            concatList.extend(y)
+                            print('after the addition', concatList)
+                        else:
+                            print('concatList', concatList)
+                            print('y', y)
                     else:
-                        concatList.append(item for item in y)
-                        print(list(concatList))
-                        print(y)
+                        concatList.extend(y)
+
                 except:
                     continue
-                if len(y) > 2:
-                    y = depMerge(y, deps)
-                    
-                    for term in y:
-                        if term in result[0]:
-                            r = result[0].index(term)
-                            resultList.append(result[1][r])
-                        else:
-                            resultList.append(term.split('-')[0])
+            """
+            concatList = ['x', 'y']
+            argMin = 0
+            argMax = 0
+            for item in result[0]:
+                itemList = item.split('-')
+                if argMin == 0 and argMax == 0:
+                    argMin = int(itemList[-1])
+                    argMax = int(itemList[-1])
+                    concatList[0] = item
+                    concatList[1] = item
+                elif int(itemList[-1]) < argMin:
+                    argMin = int(itemList[-1])
+                    concatList[0] = item
+                elif int(itemList[-1]) > argMax:
+                    argMax = int(itemList[-1])
+                    concatList[1] = item
+
+            if concatList[0] != 'x' and concatList[1] != 'y' and  concatList[0] != concatList[1] and len(concatList) == 2:
+                y = depMerge(concatList, deps, argMin, argMax)
+                print('dependencies merged', y)
+                print()
+                for term in y:
+                    if term in result[0]:
+                        r = result[0].index(term)
+                        resultList.append(result[1][r])
+                    else:
+                        resultList.append(term.split('-')[0])
             u = tuple(k.split('-')[0] for k in result[0])
             if resultList != []:
                 # result looks like (('infants-8', 'bronchiolitis-10', 'bronchiolitis-10'), ('Species', 'Disease', 'Disease'))
