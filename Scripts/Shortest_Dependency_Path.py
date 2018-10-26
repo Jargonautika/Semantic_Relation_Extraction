@@ -15,15 +15,18 @@ def depMerge(y, deps, argMin, argMax):
 
     returnList = list()
 
-    for item in y:
-        print(item)
-        returnList.append(item)
-        for dep in deps:
-            print(dep)
-            if argMin == int(dep[1]) and argMax == int(dep[2]):
-                returnList.append(dep[0])
-            elif argMin == int(dep[2]) and argMax == int(dep[1]):
-                returnList.append(dep[0])
+    returnList.append(y[0])
+    for dep in deps:
+        if int(y[0].split('-')[-1]) == int(dep[1]) and int(y[1].split('-')[-1]) == int(dep[2]):
+            returnList.append(dep[0])
+        elif int(y[0].split('-')[-1]) == int(dep[2]) and int(y[1].split('-')[-1]) == int(dep[1]):
+            returnList.append(dep[0])
+    returnList.append(y[1])
+    for dep in deps:
+        if int(y[0].split('-')[-1]) == int(dep[1]) and int(y[1].split('-')[-1]) == int(dep[2]):
+            returnList.append(dep[0])
+        elif int(y[0].split('-')[-1]) == int(dep[2]) and int(y[1].split('-')[-1]) == int(dep[1]):
+            returnList.append(dep[0])
     
     return returnList
 
