@@ -113,7 +113,7 @@ for file in glob.glob('../Data/Extracted/*ioC.xml'):
     for event, document in ET.iterparse(file, tag='document'):
 
         counter += 1
-        if counter > 200:
+        if counter > 1000:
             break
 
         PMID = None

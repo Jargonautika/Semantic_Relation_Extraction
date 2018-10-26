@@ -12,24 +12,26 @@ nlp = spacy.load('en')
 
 
 def depMerge(y, deps):
+
     returnList = list()
 
     for i, item in enumerate(y):
         returnList.append(item)
+        first = int(y[i].split('-')[-1])
+        second = None
+        try:
+            second = int(y[i+1].split('-')[-1])
+        except:
+            pass
         for dep in deps:
-            first = int(y[i].split('-')[-1])
-            second = None
-            try:
-                second = int(y[i+1].split('-')[-1])
-            except:
-                pass
-
             if first == dep[1] and second != None and second == dep[2]:
                 returnList.append(dep[0])
             elif first == dep[2] and second != None and second == dep[1]:
                 returnList.append(dep[0])
+    
     return returnList
 
+    # Current output looks like ['infants-8', 'prep', 'with-9', 'pobj', 'bronchiolitis-10']
 
 # This function may be better served as a recursive function which sends all powersets up to the lex2Dep
 # function above. This would allow for all groups of two to be added together and then the tuples,
@@ -62,19 +64,40 @@ def shortestDepPath(deps, graph, newEntityList, typeList, annoOffnText):
         returnList = list()
         # results come in tuple format of an indeterminate length. At a minimum
         # they are 2 elements long. The max is unforeseeable, so iterate through them
+        # resultSet might look something like the following:
+        # [(('DOCA-14', 'hypertensive-17'), ('Chemical', 'Disease')),
+        #  (('DOCA-14', 'rats-18'), ('Chemical', 'Species')),
+        #  (('DOCA-14', 'hypertension-26'), ('Chemical', 'Disease')),
+        #  (('hypertensive-17', 'rats-18'), ('Disease', 'Species')),
+        #  (('hypertensive-17', 'hypertension-26'), ('Disease', 'Disease')),
+        #  (('rats-18', 'hypertension-26'), ('Species', 'Disease')),
+        #  (('DOCA-14', 'hypertensive-17', 'rats-18'), ('Chemical', 'Disease', 'Species')),
+        #  (('DOCA-14', 'hypertensive-17', 'hypertension-26'), ('Chemical', 'Disease', 'Disease')),
+        #  (('DOCA-14', 'rats-18', 'hypertension-26'), ('Chemical', 'Species', 'Disease')),
+        #  (('hypertensive-17', 'rats-18', 'hypertension-26'), ('Disease', 'Species', 'Disease')),
+        #  (('DOCA-14', 'hypertensive-17', 'rats-18', 'hypertension-26'), ('Chemical', 'Disease', 'Species', 'Disease'))]
+        
         for result in resultSet:
             # i is the index within the resultSet tuple/n-uple
             resultList = list()
-            for i in range(len(result)-1):
-                #print(result, i)
+            concatList = list()
+            for i in range(len(result[0])-1):
+                j = i+1
                 try:
-                    y = nx.shortest_path(graph, source=result[i][0], target=result[i][1])
+                    y = nx.shortest_path(graph, source=result[0][i], target=result[0][j])
+                    if concatList != []:
+                        assert concatList[-1] == y[0], "Uh-oh, you're not concatenating the right lists..."
+                        concatList[:-1].append(item for item in y[1:])
+                        print(list(concatList))
+                    else:
+                        concatList.append(item for item in y)
+                        print(list(concatList))
+                        print(y)
                 except:
                     continue
                 if len(y) > 2:
-
                     y = depMerge(y, deps)
-
+                    
                     for term in y:
                         if term in result[0]:
                             r = result[0].index(term)
